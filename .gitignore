@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.aws-sam/
+samconfig.local.toml
+.sam-temp/
+.business-profile-chrome/
+.business-profile-chrome.err
+frontend/.*.png
+tmp/

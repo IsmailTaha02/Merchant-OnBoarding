@@ -1,0 +1,263 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: GWEB merchant onboarding intake prototype (Lambda-only application compute)
+Parameters:
+  FrontendOrigin:
+    Type: String
+    Default: https://example.invalid
+    AllowedPattern: '^(https://[A-Za-z0-9.-]+(:[0-9]+)?|http://localhost(:[0-9]+)?)$'
+    Description: Exact HTTPS frontend origin; localhost HTTP is allowed only for local testing.
+  RetentionPolicy:
+    Type: String
+    Default: '{}'
+    Description: Approved status-to-days JSON map (for example, configured only after a compliance-approved retention period exists); empty disables deletion.
+  LogRetentionDays:
+    Type: Number
+    Default: 30
+    AllowedValues: [1, 3, 5, 7, 14, 30, 60, 90, 120, 150, 180, 365, 400, 545, 731, 1096, 1827, 2192, 2557, 2922, 3288, 3653]
+    Description: CloudWatch application log retention period; adjust to the approved operational policy.
+Resources:
+  OnboardingApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: '$default'
+      CorsConfiguration:
+        AllowOrigins:
+          - !Ref FrontendOrigin
+        AllowHeaders: ['content-type', 'authorization', 'x-request-id']
+        AllowMethods: ['GET', 'POST', 'PATCH', 'OPTIONS']
+        MaxAge: 300
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 25
+      AccessLogSettings:
+        DestinationArn: !GetAtt ApiAccessLogGroup.Arn
+        Format: '{"requestId":"$context.requestId","routeKey":"$context.routeKey","status":"$context.status","integrationLatency":"$context.integrationLatency","responseLatency":"$context.responseLatency"}'
+      Auth:
+        Authorizers:
+          MerchantUserAuthorizer:
+            IdentitySource: "$request.header.Authorization"
+            JwtConfiguration:
+              issuer: !Sub 'https://cognito-idp.${AWS::Region}.${AWS::URLSuffix}/${MerchantUserPool}'
+              audience:
+                - !Ref MerchantUserPoolClient
+        DefaultAuthorizer: MerchantUserAuthorizer
+  OnboardingFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/
+      Handler: app.handler
+      Runtime: python3.12
+      Architectures: [arm64]
+      Timeout: 40
+      MemorySize: 512
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref ApplicationTable
+          DOCUMENT_BUCKET: !Ref DocumentBucket
+          INTERNAL_DEADLINE_SECONDS: '35'
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Sid: ApplicationRecords
+              Effect: Allow
+              Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:Query, dynamodb:TransactWriteItems]
+              Resource: !GetAtt ApplicationTable.Arn
+            - Sid: DocumentObjects
+              Effect: Allow
+              Action: [s3:PutObject, s3:GetObject]
+              Resource: !Sub '${DocumentBucket.Arn}/applications/*'
+      Events:
+        Api:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref OnboardingApi
+            Path: /v1/{proxy+}
+            Method: ANY
+      LoggingConfig:
+        LogFormat: JSON
+      Tags:
+        Application: gweb-merchant-onboarding
+  MerchantUserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub 'gweb-merchant-onboarding-${AWS::StackName}'
+      MfaConfiguration: ON
+      EnabledMfas: [SOFTWARE_TOKEN_MFA]
+      UsernameAttributes: [email]
+      AutoVerifiedAttributes: [email]
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 12
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: true
+          RequireUppercase: true
+      AccountRecoverySetting:
+        RecoveryMechanisms:
+          - Name: verified_email
+            Priority: 1
+  UnderwritingReviewerGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: underwriting-reviewer
+      Description: Authorized human reviewers for submitted onboarding applications
+      UserPoolId: !Ref MerchantUserPool
+  MerchantUserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      ClientName: gweb-merchant-onboarding-browser
+      UserPoolId: !Ref MerchantUserPool
+      GenerateSecret: false
+      SupportedIdentityProviders: [COGNITO]
+      AllowedOAuthFlowsUserPoolClient: true
+      AllowedOAuthFlows: [code]
+      AllowedOAuthScopes: [openid, email, profile]
+      CallbackURLs:
+        - !Sub '${FrontendOrigin}/'
+      LogoutURLs:
+        - !Sub '${FrontendOrigin}/'
+      ExplicitAuthFlows: [ALLOW_REFRESH_TOKEN_AUTH, ALLOW_USER_SRP_AUTH]
+      PreventUserExistenceErrors: ENABLED
+  MerchantUserPoolDomain:
+    Type: AWS::Cognito::UserPoolDomain
+    Properties:
+      Domain: !Sub 'gweb-merchant-${AWS::AccountId}-${AWS::Region}'
+      UserPoolId: !Ref MerchantUserPool
+  RetentionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/
+      Handler: retention.handler
+      Runtime: python3.12
+      Architectures: [arm64]
+      Timeout: 35
+      MemorySize: 256
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref ApplicationTable
+          DOCUMENT_BUCKET: !Ref DocumentBucket
+          RETENTION_POLICY_JSON: !Ref RetentionPolicy
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Sid: RetentionTableMaintenance
+              Effect: Allow
+              Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:Scan, dynamodb:Query, dynamodb:DeleteItem, dynamodb:BatchWriteItem]
+              Resource: !GetAtt ApplicationTable.Arn
+            - Sid: ListApplicationDocumentVersions
+              Effect: Allow
+              Action: [s3:ListBucketVersions]
+              Resource: !GetAtt DocumentBucket.Arn
+              Condition:
+                StringLike:
+                  s3:prefix: ['applications/*']
+            - Sid: DeleteApplicationDocumentVersions
+              Effect: Allow
+              Action: [s3:DeleteObjectVersion]
+              Resource: !Sub '${DocumentBucket.Arn}/applications/*'
+      Events:
+        HourlyRetentionSweep:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 hour)
+            Enabled: true
+      LoggingConfig:
+        LogFormat: JSON
+      Tags:
+        Application: gweb-merchant-onboarding
+  OnboardingFunctionLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${OnboardingFunction}'
+      RetentionInDays: !Ref LogRetentionDays
+  ApiAccessLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/apigateway/${AWS::StackName}-http-api'
+      RetentionInDays: !Ref LogRetentionDays
+  RetentionFunctionLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${RetentionFunction}'
+      RetentionInDays: !Ref LogRetentionDays
+  ApplicationTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: PK
+          AttributeType: S
+        - AttributeName: SK
+          AttributeType: S
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      SSESpecification:
+        SSEEnabled: true
+  DocumentBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      VersioningConfiguration:
+        Status: Enabled
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: BucketOwnerEnforced
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      CorsConfiguration:
+        CorsRules:
+          - AllowedOrigins:
+              - !Ref FrontendOrigin
+            AllowedMethods: [POST]
+            AllowedHeaders: ['*']
+            MaxAge: 300
+      LifecycleConfiguration:
+        Rules:
+          - Id: AbortIncompleteUploads
+            Status: Enabled
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 2
+  DocumentBucketTlsPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref DocumentBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: DenyInsecureTransport
+            Effect: Deny
+            Principal: '*'
+            Action: s3:*
+            Resource:
+              - !GetAtt DocumentBucket.Arn
+              - !Sub '${DocumentBucket.Arn}/*'
+            Condition:
+              Bool:
+                aws:SecureTransport: 'false'
+Outputs:
+  ApiUrl:
+    Description: HTTPS API Gateway endpoint
+    Value: !Sub 'https://${OnboardingApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}'
+  TableName:
+    Value: !Ref ApplicationTable
+  DocumentBucketName:
+    Value: !Ref DocumentBucket
+  UserPoolClientId:
+    Value: !Ref MerchantUserPoolClient
+  AuthDomain:
+    Value: !Sub 'https://${MerchantUserPoolDomain}.auth.${AWS::Region}.amazoncognito.com'

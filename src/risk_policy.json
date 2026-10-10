@@ -1,0 +1,18 @@
+{
+  "version": "assessment-example-1",
+  "default": {
+    "6012": "enhanced-review",
+    "6051": "enhanced-review",
+    "6211": "enhanced-review",
+    "7995": "enhanced-review"
+  },
+  "providerOverrides": {
+    "example_acquirer": {
+      "7995": "restricted/unsupported",
+      "5812": "standard"
+    },
+    "example_bank": {
+      "6012": "restricted/unsupported"
+    }
+  }
+}

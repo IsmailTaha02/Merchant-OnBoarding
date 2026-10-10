@@ -1,0 +1,8 @@
+Processor: SamplePay
+Statement period: September 2026
+Card sales volume: GBP 10,000.00
+Discount / processing fees: GBP 160.00
+Transaction fees: GBP 20.00
+Monthly service fees: GBP 10.00
+Chargeback fees: GBP 0.00
+Transactions: 280

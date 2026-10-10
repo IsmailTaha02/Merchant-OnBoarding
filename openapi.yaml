@@ -1,0 +1,297 @@
+openapi: 3.1.0
+info:
+  title: GWEB Merchant Onboarding Intake API
+  version: 1.0.0
+  description: Prototype intake and human-review preparation API. Not a merchant approval API.
+servers:
+  - url: https://{apiId}.execute-api.{region}.amazonaws.com
+    variables:
+      apiId: {default: deployed-api}
+      region: {default: us-east-1}
+security:
+  - CognitoBearer: []
+paths:
+  /v1/applications:
+    post:
+      summary: Create or resume an application
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {idempotencyKey: {type: string, maxLength: 128}}
+      responses:
+        '201': {description: Application created}
+        '200': {description: Existing idempotent application returned}
+  /v1/applications/{applicationId}:
+    parameters:
+      - {$ref: '#/components/parameters/ApplicationId'}
+    get:
+      summary: Retrieve application and review state
+      responses:
+        '200': {description: Application returned}
+        '404': {description: Application not found}
+  /v1/applications/{applicationId}/applicant:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    patch:
+      summary: Save masked control-person details
+      requestBody: {$ref: '#/components/requestBodies/ApplicantPatch'}
+      responses:
+        '200': {description: Applicant saved}
+        '400': {description: Invalid fields}
+        '409': {description: Stale version or submitted application}
+  /v1/applications/{applicationId}/business:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    patch:
+      summary: Save merchant business details
+      requestBody: {$ref: '#/components/requestBodies/BusinessPatch'}
+      responses:
+        '200': {description: Business saved}
+        '400': {description: Invalid fields}
+        '409': {description: Stale version or submitted application}
+  /v1/applications/{applicationId}/documents/presign:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    post:
+      summary: Create a short-lived restricted S3 upload policy
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [documentType, contentType, sizeBytes]
+              properties:
+                documentType: {type: string, enum: [government_id, business_registration, business_license, bank_evidence, processing_statement, additional_evidence]}
+                contentType: {type: string, enum: [application/pdf, image/jpeg, image/png]}
+                sizeBytes: {type: integer, minimum: 1, maximum: 10485760}
+                reasonRequested: {type: string, maxLength: 500, description: Required for additional_evidence}
+      responses:
+        '201': {description: Presigned upload fields returned}
+        '400': {description: Invalid upload metadata}
+  /v1/applications/{applicationId}/statement/parse:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    post:
+      summary: Parse sanitized statement totals without retaining raw text
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [text]
+              properties: {text: {type: string, maxLength: 20000}}
+      responses:
+        '200': {description: Normalized unverified statement values}
+        '400': {description: Unsupported or invalid statement text}
+  /v1/applications/{applicationId}/documents/{documentId}/complete:
+    parameters:
+      - {$ref: '#/components/parameters/ApplicationId'}
+      - name: documentId
+        in: path
+        required: true
+        schema: {type: string, format: uuid}
+    post:
+      summary: Verify an uploaded S3 object and mark it received
+      responses:
+        '200': {description: Object verified}
+        '400': {description: Size, content type, checksum, or file signature mismatch}
+        '404': {description: Document not found}
+        '410': {description: Presigned upload link expired; request a replacement}
+  /v1/applications/{applicationId}/documents/{documentId}/review:
+    parameters:
+      - {$ref: '#/components/parameters/ApplicationId'}
+      - name: documentId
+        in: path
+        required: true
+        schema: {type: string, format: uuid}
+    post:
+      summary: Apply an audited document review transition (underwriting-reviewer group only)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [reviewStatus]
+              properties:
+                reviewStatus: {type: string, enum: [PROCESSING, ACCEPTED, NEEDS_REVIEW, REJECTED]}
+                reason: {type: string, maxLength: 500, description: Required for NEEDS_REVIEW or REJECTED}
+      responses:
+        '200': {description: Review status recorded with actor and request audit fields}
+        '401': {description: Underwriting reviewer group is required}
+        '409': {description: Invalid transition or application not submitted}
+        '400': {description: Invalid status or missing review reason}
+  /v1/mcc:
+    get:
+      summary: Search the complete packaged Visa MCC catalog (returns up to 50 matches)
+      parameters:
+        - {name: query, in: query, schema: {type: string}}
+      responses:
+        '200': {description: MCC matches}
+  /v1/applications/{applicationId}/classify:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    post:
+      summary: Suggest MCC candidates and record applicant confirmation
+      requestBody: {$ref: '#/components/requestBodies/JsonObject'}
+      responses:
+        '200': {description: Explainable MCC candidates}
+        '400': {description: Invalid selected code}
+  /v1/applications/{applicationId}/evaluate:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    post:
+      summary: Run deterministic intake checks and rate arithmetic
+      responses:
+        '200': {description: Explainable evaluation result}
+  /v1/applications/{applicationId}/evaluation:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    get:
+      summary: Read latest evaluation
+      responses:
+        '200': {description: Evaluation result}
+        '404': {description: No evaluation exists}
+  /v1/applications/{applicationId}/submit:
+    parameters: [{$ref: '#/components/parameters/ApplicationId'}]
+    post:
+      summary: Lock a complete application for human review
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [finalAttestation, termsVersion]
+              properties:
+                finalAttestation: {type: boolean, const: true}
+                termsVersion: {type: string, enum: [v1]}
+      responses:
+        '201': {description: Pending human review payload created}
+        '422': {description: Required items are missing}
+        '409': {description: Application already submitted}
+        '400': {description: Final accuracy attestation or terms confirmation is missing}
+components:
+  securitySchemes:
+    CognitoBearer:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  parameters:
+    ApplicationId:
+      name: applicationId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+  requestBodies:
+    JsonObject:
+      required: true
+      content:
+        application/json:
+          schema: {type: object, additionalProperties: true}
+    BusinessPatch:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            description: Partial business update. Registered address core fields are required before evaluation; card-present and card-not-present percentages must total 100 when both are provided; e-commerce is a subset of card-not-present sales.
+            properties:
+              legalName: {type: string, maxLength: 2000}
+              tradeName: {type: string}
+              entityType: {type: string}
+              formationCountry: {type: string}
+              formationRegion: {type: string}
+              registrationLast4: {type: string, pattern: '^[A-Za-z0-9]{4}$'}
+              registeredAddress: {type: string}
+              registeredAddressLine1: {type: string}
+              registeredAddressLine2: {type: string}
+              registeredAddressCity: {type: string}
+              registeredAddressRegion: {type: string}
+              registeredAddressPostalCode: {type: string}
+              registeredAddressCountry: {type: string}
+              operatingAddress: {type: string}
+              operatingCountries: {type: string, description: Applicant-declared countries or regions served}
+              fulfillmentModel: {type: string, enum: [Physical goods, Digital goods, In-person services, Remote services, Mixed, Other]}
+              recurringPayments: {type: string, enum: [Yes, No]}
+              customerType: {type: string, enum: [Consumers, Businesses, Both]}
+              description: {type: string}
+              annualCardVolume: {type: [string, number], minimum: 0}
+              averageTicket: {type: [string, number], minimum: 0}
+              highestTicket: {type: [string, number], minimum: 0}
+              monthlyTransactions: {type: [string, integer], minimum: 0}
+              cardPresentPercent: {type: [string, number], minimum: 0, maximum: 100}
+              cardNotPresentPercent: {type: [string, number], minimum: 0, maximum: 100}
+              ecommercePercent: {type: [string, number], minimum: 0, maximum: 100}
+              website: {type: string, format: uri}
+              startDate: {type: string, format: date}
+              industry: {type: string}
+              processor: {type: string}
+              currentMonthlyVolume: {type: [string, number], minimum: 0}
+              currentFees: {type: [string, number], minimum: 0}
+              statementPeriod: {type: string}
+              licenseRequired: {type: string, enum: [Yes, No, Unsure]}
+              businessLicenseType: {type: string, maxLength: 200}
+              businessLicenseIssuer: {type: string, maxLength: 200}
+              businessLicenseNumberLast4: {type: string, pattern: '^[A-Za-z0-9]{4}$'}
+              businessLicenseExpiry: {type: string, format: date}
+              settlementAccountHolder: {type: string}
+              settlementBankName: {type: string}
+              settlementAccountLast4: {type: string, pattern: '^[0-9]{4}$'}
+              bankStatementDate: {type: string, format: date}
+    ApplicantPatch:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            additionalProperties: false
+            properties:
+              firstName: {type: string}
+              middleName: {type: string}
+              lastName: {type: string}
+              dateOfBirth: {type: string, format: date}
+              residentialAddressLine1: {type: string}
+              residentialAddress: {type: string, description: Legacy combined address field; use the structured address fields for new clients.}
+              residentialAddressLine2: {type: string}
+              residentialCity: {type: string}
+              residentialStateOrProvince: {type: string}
+              residentialPostalCode: {type: string}
+              residentialCountry: {type: string}
+              email: {type: string, format: email}
+              phone: {type: string}
+              role: {type: string, enum: [Owner, Director, Partner, Controller, Other]}
+              ownershipPercent: {type: string, pattern: '^([0-9]{1,2}(\.[0-9]+)?|100(\.0+)?)$'}
+              idType: {type: string, enum: [Passport, "Driver's license", National ID, Other]}
+              idLast4: {type: string, pattern: '^[0-9]{4}$'}
+              idExpiresAt: {type: string, format: date}
+              consentAt: {type: string, format: date-time}
+              termsVersion: {type: string}
+              beneficialOwners:
+                type: array
+                maxItems: 20
+                items:
+                  type: object
+                  additionalProperties: false
+                  required: [ownerId, firstName, lastName, dateOfBirth, residentialAddress, email, phone, role, idType, idLast4]
+                  properties:
+                    ownerId: {type: string, format: uuid}
+                    firstName: {type: string}
+                    middleName: {type: string}
+                    lastName: {type: string}
+                    dateOfBirth: {type: string, format: date}
+                    residentialAddress:
+                      type: object
+                      additionalProperties: false
+                      required: [line1, city, postalCode, country]
+                      properties:
+                        line1: {type: string}
+                        line2: {type: string}
+                        city: {type: string}
+                        stateOrProvince: {type: string}
+                        postalCode: {type: string}
+                        country: {type: string}
+                    email: {type: string, format: email}
+                    phone: {type: string}
+                    role: {type: string, enum: [Owner, Director, Partner, Controller, Other]}
+                    ownershipPercent: {type: string}
+                    idType: {type: string, enum: [Passport, "Driver's license", National ID, Other]}
+                    idLast4: {type: string, pattern: '^[0-9]{4}$'}
+                    idExpiresAt: {type: string, format: date}

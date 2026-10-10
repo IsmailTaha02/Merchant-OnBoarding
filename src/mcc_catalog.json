@@ -1,0 +1,4691 @@
+[
+  {
+    "code": "0742",
+    "description": "Veterinary Services",
+    "keywords": [
+      "veterinary",
+      "vet",
+      "animal clinic"
+    ]
+  },
+  {
+    "code": "0763",
+    "description": "Agricultural Co-operatives",
+    "keywords": []
+  },
+  {
+    "code": "0780",
+    "description": "Landscaping and Horticultural Services",
+    "keywords": []
+  },
+  {
+    "code": "1520",
+    "description": "General Contractors - Residential and Commercial",
+    "keywords": []
+  },
+  {
+    "code": "1711",
+    "description": "Heating, Plumbing, and Air Conditioning Contractors",
+    "keywords": []
+  },
+  {
+    "code": "1731",
+    "description": "Electrical Contractors",
+    "keywords": []
+  },
+  {
+    "code": "1740",
+    "description": "Masonry, Stonework, Tile Setting, Plastering and Insulation",
+    "keywords": []
+  },
+  {
+    "code": "1750",
+    "description": "Carpentry Contractors",
+    "keywords": []
+  },
+  {
+    "code": "1761",
+    "description": "Roofing, Siding, and Sheet Metal Work Contractors",
+    "keywords": []
+  },
+  {
+    "code": "1771",
+    "description": "Concrete Work Contractors",
+    "keywords": []
+  },
+  {
+    "code": "1799",
+    "description": "Special Trade Contractors (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "2741",
+    "description": "Miscellaneous Publishing and Printing",
+    "keywords": []
+  },
+  {
+    "code": "2791",
+    "description": "Typesetting, Plate Making and Related Services",
+    "keywords": []
+  },
+  {
+    "code": "2842",
+    "description": "Specialty Cleaning, Polishing and Sanitation Preparations",
+    "keywords": []
+  },
+  {
+    "code": "3000",
+    "description": "UNITED AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3001",
+    "description": "AMERICAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3002",
+    "description": "PAN AMERICAN",
+    "keywords": []
+  },
+  {
+    "code": "3003",
+    "description": "EUROFLY AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3004",
+    "description": "DRAGON AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3005",
+    "description": "BRITISH AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3006",
+    "description": "JAPAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3007",
+    "description": "AIR FRANCE",
+    "keywords": []
+  },
+  {
+    "code": "3008",
+    "description": "LUFTHANSA",
+    "keywords": []
+  },
+  {
+    "code": "3009",
+    "description": "AIR CANADA",
+    "keywords": []
+  },
+  {
+    "code": "3010",
+    "description": "KLM (ROYAL DUTCH AIRLINES)",
+    "keywords": []
+  },
+  {
+    "code": "3011",
+    "description": "AEROFLOT",
+    "keywords": []
+  },
+  {
+    "code": "3012",
+    "description": "QANTAS",
+    "keywords": []
+  },
+  {
+    "code": "3013",
+    "description": "ITA AIRWAYS (FORMERLY ALITALIA)",
+    "keywords": []
+  },
+  {
+    "code": "3014",
+    "description": "SAUDI ARABIAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3015",
+    "description": "SWISS INTERNATIONAL AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3016",
+    "description": "SAS",
+    "keywords": []
+  },
+  {
+    "code": "3017",
+    "description": "SOUTH AFRICAN AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3018",
+    "description": "VARIG (BRAZIL)",
+    "keywords": []
+  },
+  {
+    "code": "3019",
+    "description": "EASTERN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3020",
+    "description": "AIR-INDIA",
+    "keywords": []
+  },
+  {
+    "code": "3021",
+    "description": "AIR ALGERIE",
+    "keywords": []
+  },
+  {
+    "code": "3022",
+    "description": "PHILIPPINE AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3023",
+    "description": "MEXICANA",
+    "keywords": []
+  },
+  {
+    "code": "3024",
+    "description": "PAKISTAN INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3025",
+    "description": "AIR NEW ZEALAND",
+    "keywords": []
+  },
+  {
+    "code": "3026",
+    "description": "EMIRATES AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3027",
+    "description": "UTA/INTERAIR",
+    "keywords": []
+  },
+  {
+    "code": "3028",
+    "description": "KM MALTA AIRLINES (FORMERLY AIR MALTA)",
+    "keywords": []
+  },
+  {
+    "code": "3029",
+    "description": "SN BRUSSELS AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3030",
+    "description": "AEROLINEAS ARGENTINAS",
+    "keywords": []
+  },
+  {
+    "code": "3031",
+    "description": "OLYMPIC AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3032",
+    "description": "EL AL",
+    "keywords": []
+  },
+  {
+    "code": "3033",
+    "description": "ANSETT AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3034",
+    "description": "ETIHAD AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3035",
+    "description": "TAP (PORTUGAL)",
+    "keywords": []
+  },
+  {
+    "code": "3036",
+    "description": "VASP (BRAZIL)",
+    "keywords": []
+  },
+  {
+    "code": "3037",
+    "description": "EGYPTAIR",
+    "keywords": []
+  },
+  {
+    "code": "3038",
+    "description": "KUWAIT AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3039",
+    "description": "AVIANCA",
+    "keywords": []
+  },
+  {
+    "code": "3040",
+    "description": "GULF AIR (BAHRAIN)",
+    "keywords": []
+  },
+  {
+    "code": "3041",
+    "description": "BALKAN-BULGARIAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3042",
+    "description": "FINNAIR",
+    "keywords": []
+  },
+  {
+    "code": "3043",
+    "description": "AER LINGUS",
+    "keywords": []
+  },
+  {
+    "code": "3044",
+    "description": "AIR LANKA",
+    "keywords": []
+  },
+  {
+    "code": "3045",
+    "description": "NIGERIA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3046",
+    "description": "CRUZEIRO DO SUL (BRAZIL)",
+    "keywords": []
+  },
+  {
+    "code": "3047",
+    "description": "TURKISH AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3048",
+    "description": "ROYAL AIR MAROC",
+    "keywords": []
+  },
+  {
+    "code": "3049",
+    "description": "TUNIS AIR",
+    "keywords": []
+  },
+  {
+    "code": "3050",
+    "description": "ICELANDAIR",
+    "keywords": []
+  },
+  {
+    "code": "3051",
+    "description": "AUSTRIAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3052",
+    "description": "LAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3053",
+    "description": "AVIACO (SPAIN)",
+    "keywords": []
+  },
+  {
+    "code": "3054",
+    "description": "LADECO (CHILE)",
+    "keywords": []
+  },
+  {
+    "code": "3055",
+    "description": "LAB (BOLIVIA)",
+    "keywords": []
+  },
+  {
+    "code": "3056",
+    "description": "JET AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3057",
+    "description": "VIRGIN AMERICA",
+    "keywords": []
+  },
+  {
+    "code": "3058",
+    "description": "DELTA",
+    "keywords": []
+  },
+  {
+    "code": "3059",
+    "description": "DBA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3060",
+    "description": "NORTHWEST",
+    "keywords": []
+  },
+  {
+    "code": "3061",
+    "description": "CONTINENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3062",
+    "description": "HAPAG-LLOYD EXPRESS AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3063",
+    "description": "US AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3064",
+    "description": "ADRIA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3065",
+    "description": "AIRINTER",
+    "keywords": []
+  },
+  {
+    "code": "3066",
+    "description": "SOUTHWEST",
+    "keywords": []
+  },
+  {
+    "code": "3067",
+    "description": "VANGUARD AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3068",
+    "description": "AIR ASTANA",
+    "keywords": []
+  },
+  {
+    "code": "3069",
+    "description": "SUN COUNTRY AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3070",
+    "description": "FLYDUBAI",
+    "keywords": []
+  },
+  {
+    "code": "3071",
+    "description": "AIR BRITISH COLUMBIA",
+    "keywords": []
+  },
+  {
+    "code": "3072",
+    "description": "CEBU PACIFIC AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3075",
+    "description": "SINGAPORE AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3076",
+    "description": "AEROMEXICO",
+    "keywords": []
+  },
+  {
+    "code": "3077",
+    "description": "THAI AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3078",
+    "description": "CHINA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3079",
+    "description": "JETSTAR AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3080",
+    "description": "SWOOP INC",
+    "keywords": []
+  },
+  {
+    "code": "3081",
+    "description": "XIAMEN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3082",
+    "description": "KOREAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3083",
+    "description": "AIR AFRIQUE",
+    "keywords": []
+  },
+  {
+    "code": "3084",
+    "description": "EVA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3085",
+    "description": "MIDWEST EXPRESS AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3086",
+    "description": "CARNIVAL AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3087",
+    "description": "METRO AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3088",
+    "description": "CROATIA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3089",
+    "description": "TRANSAERO",
+    "keywords": []
+  },
+  {
+    "code": "3090",
+    "description": "UNI AIRWAYS CORPORATION",
+    "keywords": []
+  },
+  {
+    "code": "3094",
+    "description": "ZAMBIA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3096",
+    "description": "AIR ZIMBABWE",
+    "keywords": []
+  },
+  {
+    "code": "3097",
+    "description": "SPANAIR",
+    "keywords": []
+  },
+  {
+    "code": "3098",
+    "description": "ASIANA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3099",
+    "description": "CATHAY PACIFIC",
+    "keywords": []
+  },
+  {
+    "code": "3100",
+    "description": "MALAYSIAN AIRLINE SYSTEM",
+    "keywords": []
+  },
+  {
+    "code": "3102",
+    "description": "IBERIA",
+    "keywords": []
+  },
+  {
+    "code": "3103",
+    "description": "GARUDA (INDONESIA)",
+    "keywords": []
+  },
+  {
+    "code": "3106",
+    "description": "BRAATHENS S.A.F.E. (NORWAY)",
+    "keywords": []
+  },
+  {
+    "code": "3110",
+    "description": "WINGS AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3111",
+    "description": "BRITISH MIDLAND",
+    "keywords": []
+  },
+  {
+    "code": "3112",
+    "description": "WINDWARD ISLAND",
+    "keywords": []
+  },
+  {
+    "code": "3115",
+    "description": "TOWER AIR",
+    "keywords": []
+  },
+  {
+    "code": "3117",
+    "description": "VIASA",
+    "keywords": []
+  },
+  {
+    "code": "3118",
+    "description": "VALLEY AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3125",
+    "description": "TAN",
+    "keywords": []
+  },
+  {
+    "code": "3126",
+    "description": "TALAIR",
+    "keywords": []
+  },
+  {
+    "code": "3127",
+    "description": "TACA INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3129",
+    "description": "SURINAM AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3130",
+    "description": "SUNWORLD INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3131",
+    "description": "VLM AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3132",
+    "description": "FRONTIER AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3133",
+    "description": "SUNBELT AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3135",
+    "description": "SUDAN AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3136",
+    "description": "QATAR AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3137",
+    "description": "SINGLETON",
+    "keywords": []
+  },
+  {
+    "code": "3138",
+    "description": "SIMMONS AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3143",
+    "description": "SCENIC AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3144",
+    "description": "VIRGIN ATLANTIC",
+    "keywords": []
+  },
+  {
+    "code": "3145",
+    "description": "SAN JUAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3146",
+    "description": "LUXAIR",
+    "keywords": []
+  },
+  {
+    "code": "3148",
+    "description": "AIR LITTORAL SA",
+    "keywords": []
+  },
+  {
+    "code": "3151",
+    "description": "AIR ZAIRE",
+    "keywords": []
+  },
+  {
+    "code": "3154",
+    "description": "PRINCEVILLE",
+    "keywords": []
+  },
+  {
+    "code": "3156",
+    "description": "GO FLY LTD",
+    "keywords": []
+  },
+  {
+    "code": "3159",
+    "description": "PBA",
+    "keywords": []
+  },
+  {
+    "code": "3161",
+    "description": "ALL NIPPON AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3164",
+    "description": "NORONTAIR",
+    "keywords": []
+  },
+  {
+    "code": "3165",
+    "description": "NEW YORK HELICOPTER",
+    "keywords": []
+  },
+  {
+    "code": "3167",
+    "description": "AEROCONTINENTE",
+    "keywords": []
+  },
+  {
+    "code": "3168",
+    "description": "HAINAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3169",
+    "description": "RIYADH AIR",
+    "keywords": []
+  },
+  {
+    "code": "3170",
+    "description": "MOUNT COOK",
+    "keywords": []
+  },
+  {
+    "code": "3171",
+    "description": "CANADIAN AIRLINES INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3172",
+    "description": "NATIONAIR",
+    "keywords": []
+  },
+  {
+    "code": "3174",
+    "description": "JETBLUE AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3175",
+    "description": "MIDDLE EAST AIR",
+    "keywords": []
+  },
+  {
+    "code": "3176",
+    "description": "METROFLIGHT AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3177",
+    "description": "AIRTRAN AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3178",
+    "description": "MESA AIR",
+    "keywords": []
+  },
+  {
+    "code": "3180",
+    "description": "WESTJET AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3181",
+    "description": "MALEV",
+    "keywords": []
+  },
+  {
+    "code": "3182",
+    "description": "LOT (POLAND)",
+    "keywords": []
+  },
+  {
+    "code": "3183",
+    "description": "OMAN AVIATION SERVICES",
+    "keywords": []
+  },
+  {
+    "code": "3184",
+    "description": "LIAT",
+    "keywords": []
+  },
+  {
+    "code": "3185",
+    "description": "LAV (VENEZUELA)",
+    "keywords": []
+  },
+  {
+    "code": "3186",
+    "description": "LAP (PARAGUAY)",
+    "keywords": []
+  },
+  {
+    "code": "3187",
+    "description": "LACSA (COSTA RICA)",
+    "keywords": []
+  },
+  {
+    "code": "3188",
+    "description": "VIRGIN EXPRESS",
+    "keywords": []
+  },
+  {
+    "code": "3190",
+    "description": "JUGOSLAV AIR",
+    "keywords": []
+  },
+  {
+    "code": "3191",
+    "description": "ISLAND AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3193",
+    "description": "INDIAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3196",
+    "description": "HAWAIIAN AIR",
+    "keywords": []
+  },
+  {
+    "code": "3197",
+    "description": "HAVASU AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3200",
+    "description": "GUYANA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3203",
+    "description": "GOLDEN PACIFIC AIR",
+    "keywords": []
+  },
+  {
+    "code": "3204",
+    "description": "FREEDOM AIR",
+    "keywords": []
+  },
+  {
+    "code": "3206",
+    "description": "CHINA EASTERN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3211",
+    "description": "NORWEGIAN AIR SHUTTLE",
+    "keywords": []
+  },
+  {
+    "code": "3212",
+    "description": "DOMINICANA",
+    "keywords": []
+  },
+  {
+    "code": "3213",
+    "description": "BRAATHENS REGIONAL AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3215",
+    "description": "DAN AIR SERVICES",
+    "keywords": []
+  },
+  {
+    "code": "3216",
+    "description": "CUMBERLAND AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3217",
+    "description": "CSA",
+    "keywords": []
+  },
+  {
+    "code": "3218",
+    "description": "CROWN AIR",
+    "keywords": []
+  },
+  {
+    "code": "3219",
+    "description": "COPA",
+    "keywords": []
+  },
+  {
+    "code": "3220",
+    "description": "COMPANIA FAUCETT",
+    "keywords": []
+  },
+  {
+    "code": "3221",
+    "description": "TAME",
+    "keywords": []
+  },
+  {
+    "code": "3222",
+    "description": "COMMAND AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3223",
+    "description": "COMAIR",
+    "keywords": []
+  },
+  {
+    "code": "3226",
+    "description": "SKYWAYS AIR",
+    "keywords": []
+  },
+  {
+    "code": "3228",
+    "description": "CAYMAN AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3229",
+    "description": "SAETA - SOCIEDAD ECUATORIANA DE TRANSPORTES AEREOS",
+    "keywords": []
+  },
+  {
+    "code": "3231",
+    "description": "SAHSA - SERVICIO AEREO DE HONDURAS",
+    "keywords": []
+  },
+  {
+    "code": "3233",
+    "description": "CAPITOL AIR",
+    "keywords": []
+  },
+  {
+    "code": "3234",
+    "description": "CARIBBEAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3235",
+    "description": "BROCKWAY AIR",
+    "keywords": []
+  },
+  {
+    "code": "3236",
+    "description": "AIR ARABIA AIRLINE",
+    "keywords": []
+  },
+  {
+    "code": "3238",
+    "description": "BEMIDJI AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3239",
+    "description": "BAR HARBOR AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3240",
+    "description": "BAHAMASAIR",
+    "keywords": []
+  },
+  {
+    "code": "3241",
+    "description": "AVIATECA (GUATEMALA)",
+    "keywords": []
+  },
+  {
+    "code": "3242",
+    "description": "AVENSA",
+    "keywords": []
+  },
+  {
+    "code": "3243",
+    "description": "AUSTRIAN AIR SERVICE",
+    "keywords": []
+  },
+  {
+    "code": "3245",
+    "description": "EASYJET AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3246",
+    "description": "RYANAIR",
+    "keywords": []
+  },
+  {
+    "code": "3247",
+    "description": "GOL AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3248",
+    "description": "TAM AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3251",
+    "description": "ALOHA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3252",
+    "description": "ALM",
+    "keywords": []
+  },
+  {
+    "code": "3254",
+    "description": "US AIR SHUTTLE",
+    "keywords": []
+  },
+  {
+    "code": "3256",
+    "description": "ALASKA AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3259",
+    "description": "AMERICAN TRANS AIR",
+    "keywords": []
+  },
+  {
+    "code": "3260",
+    "description": "SPIRIT AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3261",
+    "description": "AIR CHINA",
+    "keywords": []
+  },
+  {
+    "code": "3262",
+    "description": "RENO AIR, INC.",
+    "keywords": []
+  },
+  {
+    "code": "3263",
+    "description": "AERO SERVICO CARABOBO",
+    "keywords": []
+  },
+  {
+    "code": "3266",
+    "description": "AIR SEYCHELLES",
+    "keywords": []
+  },
+  {
+    "code": "3267",
+    "description": "AIR PANAMA",
+    "keywords": []
+  },
+  {
+    "code": "3280",
+    "description": "AIR JAMAICA",
+    "keywords": []
+  },
+  {
+    "code": "3282",
+    "description": "AIR DJIBOUTI",
+    "keywords": []
+  },
+  {
+    "code": "3284",
+    "description": "AERO VIRGIN ISLANDS",
+    "keywords": []
+  },
+  {
+    "code": "3285",
+    "description": "AEROPERU",
+    "keywords": []
+  },
+  {
+    "code": "3286",
+    "description": "AEROLINEAS NICARAGUENSIS",
+    "keywords": []
+  },
+  {
+    "code": "3287",
+    "description": "AERO COACH AVIATION",
+    "keywords": []
+  },
+  {
+    "code": "3292",
+    "description": "CYPRUS AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3293",
+    "description": "ECUATORIANA",
+    "keywords": []
+  },
+  {
+    "code": "3294",
+    "description": "ETHIOPIAN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3295",
+    "description": "KENYA AIRWAYS",
+    "keywords": []
+  },
+  {
+    "code": "3296",
+    "description": "AIR BERLIN",
+    "keywords": []
+  },
+  {
+    "code": "3297",
+    "description": "TAROM ROMANIAN AIR TRANSPORT",
+    "keywords": []
+  },
+  {
+    "code": "3298",
+    "description": "AIR MAURITIUS",
+    "keywords": []
+  },
+  {
+    "code": "3299",
+    "description": "WIDEROE’S FLYVESELSKAP",
+    "keywords": []
+  },
+  {
+    "code": "3300",
+    "description": "AZUL AIR",
+    "keywords": []
+  },
+  {
+    "code": "3301",
+    "description": "WIZZ AIR",
+    "keywords": []
+  },
+  {
+    "code": "3302",
+    "description": "FLYBE LTD",
+    "keywords": []
+  },
+  {
+    "code": "3303",
+    "description": "TIGERAIR",
+    "keywords": []
+  },
+  {
+    "code": "3304",
+    "description": "AIR BALTIC",
+    "keywords": []
+  },
+  {
+    "code": "3305",
+    "description": "AIR TRANSAT",
+    "keywords": []
+  },
+  {
+    "code": "3308",
+    "description": "CHINA SOUTHERN AIRLINES",
+    "keywords": []
+  },
+  {
+    "code": "3351",
+    "description": "AFFILIATED AUTO RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3352",
+    "description": "AMERICAN INTL RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3353",
+    "description": "BROOKS RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3354",
+    "description": "ACTION AUTO RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3355",
+    "description": "SIXT CAR RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3357",
+    "description": "HERTZ",
+    "keywords": []
+  },
+  {
+    "code": "3359",
+    "description": "PAYLESS CAR RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3360",
+    "description": "SNAPPY CAR RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3361",
+    "description": "AIRWAYS RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3362",
+    "description": "ALTRA AUTO RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3364",
+    "description": "AGENCY RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3366",
+    "description": "BUDGET RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3368",
+    "description": "HOLIDAY RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3370",
+    "description": "RENT-A-WRECK",
+    "keywords": []
+  },
+  {
+    "code": "3374",
+    "description": "ACCENT RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3376",
+    "description": "AJAX RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3380",
+    "description": "TRIANGLE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3381",
+    "description": "EUROP CAR",
+    "keywords": []
+  },
+  {
+    "code": "3385",
+    "description": "TROPICAL RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3386",
+    "description": "SHOWCASE RENTAL CARS",
+    "keywords": []
+  },
+  {
+    "code": "3387",
+    "description": "ALAMO RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3388",
+    "description": "MERCHANTS RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3389",
+    "description": "AVIS RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3390",
+    "description": "DOLLAR RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3391",
+    "description": "EUROPE BY CAR",
+    "keywords": []
+  },
+  {
+    "code": "3393",
+    "description": "NATIONAL CAR RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3394",
+    "description": "KEMWELL GROUP RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3395",
+    "description": "THRIFTY CAR RENTAL",
+    "keywords": []
+  },
+  {
+    "code": "3396",
+    "description": "TILDEN RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3398",
+    "description": "ECONO-CAR RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3400",
+    "description": "AUTO HOST CAR RENTALS",
+    "keywords": []
+  },
+  {
+    "code": "3405",
+    "description": "ENTERPRISE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3409",
+    "description": "GENERAL RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3412",
+    "description": "A-1 RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3414",
+    "description": "GODFREY NATL RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3420",
+    "description": "ANSA INTL RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3421",
+    "description": "ALLSTATE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3423",
+    "description": "AVCAR RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3425",
+    "description": "AUTOMATE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3427",
+    "description": "AVON RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3428",
+    "description": "CAREY RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3429",
+    "description": "INSURANCE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3430",
+    "description": "MAJOR RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3431",
+    "description": "REPLACEMENT RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3432",
+    "description": "RESERVE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3433",
+    "description": "UGLY DUCKLING RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3434",
+    "description": "USA RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3435",
+    "description": "VALUE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3436",
+    "description": "AUTOHANSA RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3437",
+    "description": "CITE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3438",
+    "description": "INTERENT RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3439",
+    "description": "MILLEVILLE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3441",
+    "description": "ADVANTAGE RENT-A-CAR",
+    "keywords": []
+  },
+  {
+    "code": "3501",
+    "description": "HOLIDAY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3502",
+    "description": "BEST WESTERN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3503",
+    "description": "SHERATON",
+    "keywords": []
+  },
+  {
+    "code": "3504",
+    "description": "HILTON HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3505",
+    "description": "FORTE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3506",
+    "description": "GOLDEN TULIP HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3507",
+    "description": "FRIENDSHIP INNS",
+    "keywords": []
+  },
+  {
+    "code": "3508",
+    "description": "QUALITY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3509",
+    "description": "MARRIOTT",
+    "keywords": []
+  },
+  {
+    "code": "3510",
+    "description": "DAYS INNS",
+    "keywords": []
+  },
+  {
+    "code": "3511",
+    "description": "ARABELLA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3512",
+    "description": "INTER-CONTINENTAL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3513",
+    "description": "WESTIN",
+    "keywords": []
+  },
+  {
+    "code": "3514",
+    "description": "AMERISUITES",
+    "keywords": []
+  },
+  {
+    "code": "3515",
+    "description": "RODEWAY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3516",
+    "description": "LA QUINTA INN AND SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3517",
+    "description": "AMERICANA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3518",
+    "description": "SOL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3519",
+    "description": "PULLMAN INTERNATIONAL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3520",
+    "description": "MERIDIEN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3521",
+    "description": "ROYAL LAHAINA RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3522",
+    "description": "TOKYO HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3523",
+    "description": "PENINSULA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3524",
+    "description": "WELCOMGROUP HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3525",
+    "description": "DUNFEY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3526",
+    "description": "PRINCE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3527",
+    "description": "DOWNTOWNER-PASSPORT HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3528",
+    "description": "RED LION INNS",
+    "keywords": []
+  },
+  {
+    "code": "3529",
+    "description": "CP HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3530",
+    "description": "RENAISSANCE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3531",
+    "description": "KAUAI COCONUT BEACH RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3532",
+    "description": "ROYAL KONA RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3533",
+    "description": "HOTEL IBIS",
+    "keywords": []
+  },
+  {
+    "code": "3534",
+    "description": "SOUTHERN PACIFIC HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3535",
+    "description": "HILTON INTERNATIONALS",
+    "keywords": []
+  },
+  {
+    "code": "3536",
+    "description": "AMFAC HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3537",
+    "description": "ANA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3538",
+    "description": "CONCORDE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3539",
+    "description": "SUMMERFIELD SUITES HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3540",
+    "description": "IBEROTEL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3541",
+    "description": "HOTEL OKURA",
+    "keywords": []
+  },
+  {
+    "code": "3542",
+    "description": "ROYAL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3543",
+    "description": "FOUR SEASONS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3544",
+    "description": "CIGA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3545",
+    "description": "SHANGRI-LA INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3546",
+    "description": "HOTEL SIERRA",
+    "keywords": []
+  },
+  {
+    "code": "3548",
+    "description": "HOTELES MELIA",
+    "keywords": []
+  },
+  {
+    "code": "3549",
+    "description": "AUBERGE DES GOVERNEURS",
+    "keywords": []
+  },
+  {
+    "code": "3550",
+    "description": "REGAL 8 INNS",
+    "keywords": []
+  },
+  {
+    "code": "3551",
+    "description": "MIRAGE HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3552",
+    "description": "COAST HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3553",
+    "description": "PARK INNS INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3554",
+    "description": "PINEHURST RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3555",
+    "description": "TREASURE ISLAND HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3556",
+    "description": "BARTON CREEK RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3557",
+    "description": "MANHATTAN EAST SUITE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3558",
+    "description": "JOLLY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3559",
+    "description": "CANDLEWOOD SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3560",
+    "description": "ALADDIN RESORT AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3561",
+    "description": "GOLDEN NUGGET",
+    "keywords": []
+  },
+  {
+    "code": "3562",
+    "description": "COMFORT INNS",
+    "keywords": []
+  },
+  {
+    "code": "3563",
+    "description": "JOURNEY’S END MOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3564",
+    "description": "SAM’S TOWN HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3565",
+    "description": "RELAX INNS",
+    "keywords": []
+  },
+  {
+    "code": "3566",
+    "description": "GARDEN PLACE HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3567",
+    "description": "SOHO GRAND HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3568",
+    "description": "LADBROKE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3569",
+    "description": "TRIBECA GRAND HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3570",
+    "description": "FORUM HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3571",
+    "description": "GRAND WAILEA RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3572",
+    "description": "MIYAKO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3573",
+    "description": "SANDMAN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3574",
+    "description": "VENTURE INNS",
+    "keywords": []
+  },
+  {
+    "code": "3575",
+    "description": "VAGABOND HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3576",
+    "description": "LA QUINTA RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3577",
+    "description": "MANDARIN ORIENTAL HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3578",
+    "description": "FRANKENMUTH BAVARIAN",
+    "keywords": []
+  },
+  {
+    "code": "3579",
+    "description": "HOTEL MERCURE",
+    "keywords": []
+  },
+  {
+    "code": "3580",
+    "description": "HOTEL DEL CORONADO",
+    "keywords": []
+  },
+  {
+    "code": "3581",
+    "description": "DELTA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3582",
+    "description": "CALIFORNIA HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3583",
+    "description": "RADISSON BLU",
+    "keywords": []
+  },
+  {
+    "code": "3584",
+    "description": "PRINCESS HOTELS INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3585",
+    "description": "HUNGAR HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3586",
+    "description": "SOKOS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3587",
+    "description": "DORAL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3588",
+    "description": "HELMSLEY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3589",
+    "description": "DORAL GOLF RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3590",
+    "description": "FAIRMONT HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3591",
+    "description": "SONESTA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3592",
+    "description": "OMNI HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3593",
+    "description": "CUNARD HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3594",
+    "description": "ARIZONA BILTMORE",
+    "keywords": []
+  },
+  {
+    "code": "3595",
+    "description": "HOSPITALITY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3596",
+    "description": "WYNN LAS VEGAS",
+    "keywords": []
+  },
+  {
+    "code": "3597",
+    "description": "RIVERSIDE RESORT HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3598",
+    "description": "REGENT INTERNATIONAL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3599",
+    "description": "PANNONIA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3600",
+    "description": "SADDLEBROOK RESORT TAMPA",
+    "keywords": []
+  },
+  {
+    "code": "3601",
+    "description": "TRADEWINDS RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3602",
+    "description": "HUDSON HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3603",
+    "description": "NOAH’S HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3604",
+    "description": "HILTON GARDEN INN",
+    "keywords": []
+  },
+  {
+    "code": "3607",
+    "description": "FONTAINEBLEAU RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3608",
+    "description": "GAYLORD OPRYLAND",
+    "keywords": []
+  },
+  {
+    "code": "3609",
+    "description": "GAYLORD PALMS",
+    "keywords": []
+  },
+  {
+    "code": "3612",
+    "description": "MOEVENPICK HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3613",
+    "description": "MICROTEL INNS & SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3614",
+    "description": "AMERICINN",
+    "keywords": []
+  },
+  {
+    "code": "3615",
+    "description": "TRAVELODGE",
+    "keywords": []
+  },
+  {
+    "code": "3617",
+    "description": "AMERICA’S BEST VALUE INN",
+    "keywords": []
+  },
+  {
+    "code": "3618",
+    "description": "GREAT WOLF",
+    "keywords": []
+  },
+  {
+    "code": "3619",
+    "description": "ALOFT",
+    "keywords": []
+  },
+  {
+    "code": "3620",
+    "description": "BINION’S HORSESHOE CLUB",
+    "keywords": []
+  },
+  {
+    "code": "3621",
+    "description": "EXTENDED STAY",
+    "keywords": []
+  },
+  {
+    "code": "3622",
+    "description": "MERLIN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3623",
+    "description": "DORINT HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3624",
+    "description": "LADY LUCK HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3625",
+    "description": "HOTEL UNIVERSALE",
+    "keywords": []
+  },
+  {
+    "code": "3626",
+    "description": "STUDIO PLUS",
+    "keywords": []
+  },
+  {
+    "code": "3627",
+    "description": "EXTENDED STAY AMERICA",
+    "keywords": []
+  },
+  {
+    "code": "3628",
+    "description": "EXCALIBUR HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3629",
+    "description": "DAN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3630",
+    "description": "TOKYU HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3631",
+    "description": "SLEEP INN",
+    "keywords": []
+  },
+  {
+    "code": "3632",
+    "description": "THE PHOENICIAN",
+    "keywords": []
+  },
+  {
+    "code": "3633",
+    "description": "RANK HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3634",
+    "description": "SWISSOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3635",
+    "description": "RESO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3636",
+    "description": "SAROVA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3637",
+    "description": "RAMADA INNS",
+    "keywords": []
+  },
+  {
+    "code": "3638",
+    "description": "HOWARD JOHNSON",
+    "keywords": []
+  },
+  {
+    "code": "3639",
+    "description": "MOUNT CHARLOTTE THISTLE",
+    "keywords": []
+  },
+  {
+    "code": "3640",
+    "description": "HYATT HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3641",
+    "description": "SOFITEL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3642",
+    "description": "NOVOTEL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3643",
+    "description": "STEIGENBERGER HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3644",
+    "description": "ECONO LODGES",
+    "keywords": []
+  },
+  {
+    "code": "3645",
+    "description": "QUEENS MOAT HOUSES",
+    "keywords": []
+  },
+  {
+    "code": "3646",
+    "description": "SWALLOW HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3647",
+    "description": "HUSA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3648",
+    "description": "DE VERE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3649",
+    "description": "RADISSON HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3650",
+    "description": "RED ROOF INNS",
+    "keywords": []
+  },
+  {
+    "code": "3651",
+    "description": "IMPERIAL LONDON HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3652",
+    "description": "EMBASSY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3653",
+    "description": "PENTA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3654",
+    "description": "LOEWS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3655",
+    "description": "SCANDIC HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3656",
+    "description": "SARA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3657",
+    "description": "OBEROI HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3658",
+    "description": "NEW OTANI HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3659",
+    "description": "TAJ HOTELS INTERNATIONAL",
+    "keywords": []
+  },
+  {
+    "code": "3660",
+    "description": "KNIGHTS INNS",
+    "keywords": []
+  },
+  {
+    "code": "3661",
+    "description": "METROPOLE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3662",
+    "description": "CIRCUS CIRCUS HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3663",
+    "description": "HOTELES EL PRESIDENTE",
+    "keywords": []
+  },
+  {
+    "code": "3664",
+    "description": "FLAG INN",
+    "keywords": []
+  },
+  {
+    "code": "3665",
+    "description": "HAMPTON INNS",
+    "keywords": []
+  },
+  {
+    "code": "3666",
+    "description": "STAKIS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3667",
+    "description": "LUXOR HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3668",
+    "description": "MARITIM HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3669",
+    "description": "ELDORADO HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3670",
+    "description": "ARCADE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3671",
+    "description": "ARCTIA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3672",
+    "description": "CAMPANILE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3673",
+    "description": "IBUSZ HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3674",
+    "description": "RANTASIPI HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3675",
+    "description": "INTERHOTEL CEDOK",
+    "keywords": []
+  },
+  {
+    "code": "3676",
+    "description": "MONTE CARLO HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3677",
+    "description": "CLIMAT DE FRANCE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3678",
+    "description": "CUMULUS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3679",
+    "description": "SILVER LEGACY HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3680",
+    "description": "HOTEIS OTHAN",
+    "keywords": []
+  },
+  {
+    "code": "3681",
+    "description": "ADAMS MARK HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3682",
+    "description": "SAHARA HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3683",
+    "description": "BRADBURY SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3684",
+    "description": "BUDGET HOST INNS",
+    "keywords": []
+  },
+  {
+    "code": "3685",
+    "description": "BUDGETEL INNS",
+    "keywords": []
+  },
+  {
+    "code": "3686",
+    "description": "SUSSE CHALET",
+    "keywords": []
+  },
+  {
+    "code": "3687",
+    "description": "CLARION HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3688",
+    "description": "COMPRI HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3689",
+    "description": "CONSORT HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3690",
+    "description": "COURTYARD BY MARRIOTT",
+    "keywords": []
+  },
+  {
+    "code": "3691",
+    "description": "DILLON INNS",
+    "keywords": []
+  },
+  {
+    "code": "3692",
+    "description": "DOUBLETREE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3693",
+    "description": "DRURY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3694",
+    "description": "ECONOMY INNS OF AMERICA",
+    "keywords": []
+  },
+  {
+    "code": "3695",
+    "description": "EMBASSY SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3696",
+    "description": "EXEL INNS",
+    "keywords": []
+  },
+  {
+    "code": "3697",
+    "description": "FAIRFIELD HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3698",
+    "description": "HARLEY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3699",
+    "description": "MIDWAY MOTOR LODGE",
+    "keywords": []
+  },
+  {
+    "code": "3700",
+    "description": "MOTEL 6",
+    "keywords": []
+  },
+  {
+    "code": "3701",
+    "description": "LA MANSION DEL RIO",
+    "keywords": []
+  },
+  {
+    "code": "3702",
+    "description": "THE REGISTRY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3703",
+    "description": "RESIDENCE INNS",
+    "keywords": []
+  },
+  {
+    "code": "3704",
+    "description": "ROYCE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3705",
+    "description": "SANDMAN INNS",
+    "keywords": []
+  },
+  {
+    "code": "3706",
+    "description": "SHILO INNS",
+    "keywords": []
+  },
+  {
+    "code": "3707",
+    "description": "SHONEY’S INNS",
+    "keywords": []
+  },
+  {
+    "code": "3708",
+    "description": "VIRGIN RIVER HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3709",
+    "description": "SUPER 8 MOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3710",
+    "description": "THE RITZ-CARLTON",
+    "keywords": []
+  },
+  {
+    "code": "3711",
+    "description": "FLAG INNS (AUSTRALIA)",
+    "keywords": []
+  },
+  {
+    "code": "3712",
+    "description": "BUFFALO BILL’S HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3713",
+    "description": "QUALITY PACIFIC HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3714",
+    "description": "FOUR SEASONS HOTEL (AUSTRALIA)",
+    "keywords": []
+  },
+  {
+    "code": "3715",
+    "description": "FAIRFIELD INN",
+    "keywords": []
+  },
+  {
+    "code": "3716",
+    "description": "CARLTON HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3717",
+    "description": "CITY LODGE HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3718",
+    "description": "KAROS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3719",
+    "description": "PROTEA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3720",
+    "description": "SOUTHERN SUN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3721",
+    "description": "HILTON CONRAD",
+    "keywords": []
+  },
+  {
+    "code": "3722",
+    "description": "WYNDHAM",
+    "keywords": []
+  },
+  {
+    "code": "3723",
+    "description": "RICA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3724",
+    "description": "INTER NOR HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3725",
+    "description": "SEA PINES RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3726",
+    "description": "RIO SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3727",
+    "description": "BROADMOOR HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3728",
+    "description": "BALLY’S HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3729",
+    "description": "JOHN ASCUAGA’S NUGGET",
+    "keywords": []
+  },
+  {
+    "code": "3730",
+    "description": "MGM GRAND HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3731",
+    "description": "HARRAH’S HOTELS AND CASINOS",
+    "keywords": []
+  },
+  {
+    "code": "3732",
+    "description": "OPRYLAND HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3734",
+    "description": "HARVEY/BRISTOL HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3735",
+    "description": "MASTERS ECONOMY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3736",
+    "description": "COLORADO BELLE/EDGEWATER RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3737",
+    "description": "RIVIERA HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3738",
+    "description": "TROPICANA RESORT & CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3739",
+    "description": "WOODSIDE HOTELS & RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3740",
+    "description": "TOWNEPLACE SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3741",
+    "description": "MILLENNIUM HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3742",
+    "description": "CLUB MED",
+    "keywords": []
+  },
+  {
+    "code": "3743",
+    "description": "BILTMORE HOTEL & SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3744",
+    "description": "CAREFREE RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3745",
+    "description": "ST. REGIS HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3746",
+    "description": "THE ELIOT HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3747",
+    "description": "CLUBCORP/CLUBRESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3748",
+    "description": "WELLESLEY INNS",
+    "keywords": []
+  },
+  {
+    "code": "3749",
+    "description": "THE BEVERLY HILLS HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3750",
+    "description": "CROWNE PLAZA HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3751",
+    "description": "HOMEWOOD SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3752",
+    "description": "PEABODY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3753",
+    "description": "GREENBRIAR RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3754",
+    "description": "AMELIA ISLAND PLANTATION",
+    "keywords": []
+  },
+  {
+    "code": "3755",
+    "description": "THE HOMESTEAD",
+    "keywords": []
+  },
+  {
+    "code": "3756",
+    "description": "TOYOKO INN",
+    "keywords": []
+  },
+  {
+    "code": "3757",
+    "description": "CANYON RANCH",
+    "keywords": []
+  },
+  {
+    "code": "3758",
+    "description": "KAHALA MANDARIN ORIENTAL HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3759",
+    "description": "THE ORCHID AT MAUNA LANI",
+    "keywords": []
+  },
+  {
+    "code": "3760",
+    "description": "HALEKULANI HOTEL/WAIKIKI PARC",
+    "keywords": []
+  },
+  {
+    "code": "3761",
+    "description": "PRIMADONNA HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3762",
+    "description": "WHISKEY PETE’S HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3763",
+    "description": "CHATEAU ELAN WINERY AND RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3764",
+    "description": "BEAU RIVAGE HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3765",
+    "description": "BELLAGIO",
+    "keywords": []
+  },
+  {
+    "code": "3766",
+    "description": "FREMONT HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3767",
+    "description": "MAIN STREET STATION HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3768",
+    "description": "SILVER STAR HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3769",
+    "description": "STRATOSPHERE HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3770",
+    "description": "SPRINGHILL SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3771",
+    "description": "CAESAR’S HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3772",
+    "description": "NEMACOLIN WOODLANDS",
+    "keywords": []
+  },
+  {
+    "code": "3773",
+    "description": "THE VENETIAN RESORT HOTEL CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3774",
+    "description": "NEW YORK-NEW YORK HOTEL AND CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3775",
+    "description": "SANDS RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3776",
+    "description": "NEVELE GRAND RESORT AND COUNTRY CLUB",
+    "keywords": []
+  },
+  {
+    "code": "3777",
+    "description": "MANDALAY BAY RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3778",
+    "description": "FOUR POINTS HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3779",
+    "description": "W HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3780",
+    "description": "DISNEY RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3781",
+    "description": "PATRICIA GRAND RESORT HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3782",
+    "description": "ROSEN HOTELS AND RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3783",
+    "description": "TOWN AND COUNTRY RESORT & CONVENTION CENTER",
+    "keywords": []
+  },
+  {
+    "code": "3784",
+    "description": "FIRST HOSPITALITY HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3785",
+    "description": "OUTRIGGER HOTELS AND RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3786",
+    "description": "OHANA HOTELS OF HAWAII",
+    "keywords": []
+  },
+  {
+    "code": "3787",
+    "description": "CARIBE ROYALE RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3788",
+    "description": "ALA MOANA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3789",
+    "description": "SMUGGLER’S NOTCH RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3790",
+    "description": "RAFFLES HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3791",
+    "description": "STAYBRIDGE SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3792",
+    "description": "CLARIDGE CASINO HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3793",
+    "description": "FLAMINGO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3794",
+    "description": "GRAND CASINO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3795",
+    "description": "PARIS LAS VEGAS HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3796",
+    "description": "PEPPERMILL HOTEL CASINO",
+    "keywords": []
+  },
+  {
+    "code": "3797",
+    "description": "ATLANTIC CITY HILTON RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3798",
+    "description": "EMBASSY VACATION RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3799",
+    "description": "HALE KOA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3800",
+    "description": "HOMESTEAD SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3801",
+    "description": "WILDERNESS HOTEL AND RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3802",
+    "description": "THE PALACE HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3807",
+    "description": "ELEMENT",
+    "keywords": []
+  },
+  {
+    "code": "3808",
+    "description": "LXR",
+    "keywords": []
+  },
+  {
+    "code": "3811",
+    "description": "PREMIER INN",
+    "keywords": []
+  },
+  {
+    "code": "3812",
+    "description": "HYATT PLACE",
+    "keywords": []
+  },
+  {
+    "code": "3813",
+    "description": "HOTEL INDIGO",
+    "keywords": []
+  },
+  {
+    "code": "3814",
+    "description": "THE ROOSEVELT HOTEL NY",
+    "keywords": []
+  },
+  {
+    "code": "3815",
+    "description": "NICKELODEON FAMILY SUITES BY HOLIDAY INN",
+    "keywords": []
+  },
+  {
+    "code": "3816",
+    "description": "HOME2SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3818",
+    "description": "MAINSTAY SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3819",
+    "description": "OXFORD SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3820",
+    "description": "JUMEIRAH ESSEX HOUSE",
+    "keywords": []
+  },
+  {
+    "code": "3821",
+    "description": "CARIBE ROYALE",
+    "keywords": []
+  },
+  {
+    "code": "3822",
+    "description": "CROSSLAND",
+    "keywords": []
+  },
+  {
+    "code": "3823",
+    "description": "GRAND SIERRA RESORT",
+    "keywords": []
+  },
+  {
+    "code": "3824",
+    "description": "ARIA",
+    "keywords": []
+  },
+  {
+    "code": "3825",
+    "description": "VDARA",
+    "keywords": []
+  },
+  {
+    "code": "3826",
+    "description": "AUTOGRAPH",
+    "keywords": []
+  },
+  {
+    "code": "3827",
+    "description": "GALT HOUSE",
+    "keywords": []
+  },
+  {
+    "code": "3828",
+    "description": "COSMOPOLITAN OF LAS VEGAS",
+    "keywords": []
+  },
+  {
+    "code": "3829",
+    "description": "COUNTRY INN BY RADISSON",
+    "keywords": []
+  },
+  {
+    "code": "3830",
+    "description": "PARK PLAZA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3831",
+    "description": "WALDORF",
+    "keywords": []
+  },
+  {
+    "code": "3832",
+    "description": "CURIO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3833",
+    "description": "CANOPY",
+    "keywords": []
+  },
+  {
+    "code": "3834",
+    "description": "BAYMONT INN & SUITES",
+    "keywords": []
+  },
+  {
+    "code": "3835",
+    "description": "DOLCE HOTELS AND RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3836",
+    "description": "HAWTHORN BY WYNDHAM",
+    "keywords": []
+  },
+  {
+    "code": "3837",
+    "description": "HOSHINO RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3838",
+    "description": "KIMPTON HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3839",
+    "description": "KYORITSU HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3840",
+    "description": "RIO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3841",
+    "description": "TRIBUTE PORTFOLIO",
+    "keywords": []
+  },
+  {
+    "code": "3842",
+    "description": "MARRIOT EXECUTIVE APARTMENTS",
+    "keywords": []
+  },
+  {
+    "code": "3843",
+    "description": "MOXY",
+    "keywords": []
+  },
+  {
+    "code": "3844",
+    "description": "AC HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3845",
+    "description": "BULGARI",
+    "keywords": []
+  },
+  {
+    "code": "3846",
+    "description": "THE LUXURY COLLECTION",
+    "keywords": []
+  },
+  {
+    "code": "3847",
+    "description": "JW MARRIOT",
+    "keywords": []
+  },
+  {
+    "code": "3848",
+    "description": "EDITION",
+    "keywords": []
+  },
+  {
+    "code": "3849",
+    "description": "MINACIA",
+    "keywords": []
+  },
+  {
+    "code": "3850",
+    "description": "BREEZBAY GROUP",
+    "keywords": []
+  },
+  {
+    "code": "3851",
+    "description": "CANDEO HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3852",
+    "description": "CORE GLOBAL MANAGEMENT HOTELS AND RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3853",
+    "description": "GRANBELL HOTELS AND RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3854",
+    "description": "JHAT",
+    "keywords": []
+  },
+  {
+    "code": "3855",
+    "description": "C'EST LA VIE RESORT IZUMIGO",
+    "keywords": []
+  },
+  {
+    "code": "3856",
+    "description": "BANYAN TREE HOTELS & RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3857",
+    "description": "HOTEL SUNROUTE",
+    "keywords": []
+  },
+  {
+    "code": "3858",
+    "description": "SOTETSU FRESA-INN",
+    "keywords": []
+  },
+  {
+    "code": "3859",
+    "description": "LA VISTA",
+    "keywords": []
+  },
+  {
+    "code": "3860",
+    "description": "JR-EAST HOTEL METS",
+    "keywords": []
+  },
+  {
+    "code": "3861",
+    "description": "AB HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3862",
+    "description": "CHISUN HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3863",
+    "description": "SUPER HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3864",
+    "description": "ITOEN HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3865",
+    "description": "QUINTESSA HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3866",
+    "description": "SMILE HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3867",
+    "description": "HOTEL ALPHA-1",
+    "keywords": []
+  },
+  {
+    "code": "3868",
+    "description": "RELO VACATIONS",
+    "keywords": []
+  },
+  {
+    "code": "3869",
+    "description": "YUTORELO",
+    "keywords": []
+  },
+  {
+    "code": "3870",
+    "description": "KEIO PRESSO INN",
+    "keywords": []
+  },
+  {
+    "code": "3871",
+    "description": "VILLA-FONTAINE",
+    "keywords": []
+  },
+  {
+    "code": "3872",
+    "description": "MEITETSU INN",
+    "keywords": []
+  },
+  {
+    "code": "3873",
+    "description": "TOKYU HARVEST CLUB",
+    "keywords": []
+  },
+  {
+    "code": "3874",
+    "description": "HOTEL LIVEMAX",
+    "keywords": []
+  },
+  {
+    "code": "3875",
+    "description": "FUFU JAPAN",
+    "keywords": []
+  },
+  {
+    "code": "3876",
+    "description": "HMI HOTEL GROUP",
+    "keywords": []
+  },
+  {
+    "code": "3877",
+    "description": "ORIX HOTELS & RESORTS",
+    "keywords": []
+  },
+  {
+    "code": "3878",
+    "description": "WASHINGTON HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "3879",
+    "description": "SANCO INN",
+    "keywords": []
+  },
+  {
+    "code": "3880",
+    "description": "HOTEL UNIZO",
+    "keywords": []
+  },
+  {
+    "code": "3881",
+    "description": "HOTEL METROPOLITAN",
+    "keywords": []
+  },
+  {
+    "code": "3882",
+    "description": "CENTURION HOTELS",
+    "keywords": []
+  },
+  {
+    "code": "3883",
+    "description": "NEST HOTEL",
+    "keywords": []
+  },
+  {
+    "code": "4011",
+    "description": "Railroads",
+    "keywords": []
+  },
+  {
+    "code": "4111",
+    "description": "Local and Suburban Commuter Passenger Transportation,",
+    "keywords": [
+      "transit",
+      "bus",
+      "ferry"
+    ]
+  },
+  {
+    "code": "4112",
+    "description": "Passenger Railways",
+    "keywords": []
+  },
+  {
+    "code": "4119",
+    "description": "Ambulance Services",
+    "keywords": []
+  },
+  {
+    "code": "4121",
+    "description": "Taxicabs and Limousines",
+    "keywords": [
+      "taxi",
+      "cab",
+      "limousine"
+    ]
+  },
+  {
+    "code": "4131",
+    "description": "Bus Lines",
+    "keywords": []
+  },
+  {
+    "code": "4214",
+    "description": "Motor Freight Carriers and Trucking - Local and Long Distance,",
+    "keywords": []
+  },
+  {
+    "code": "4215",
+    "description": "Courier Services - Air and Ground, and Freight Forwarders",
+    "keywords": []
+  },
+  {
+    "code": "4225",
+    "description": "Public Warehousing and Storage - Farm Products, Refrigerated",
+    "keywords": []
+  },
+  {
+    "code": "4411",
+    "description": "Steamship and Cruise Lines",
+    "keywords": []
+  },
+  {
+    "code": "4457",
+    "description": "Boat Rentals and Leasing",
+    "keywords": []
+  },
+  {
+    "code": "4468",
+    "description": "Marinas, Marine Service, and Supplies",
+    "keywords": []
+  },
+  {
+    "code": "4511",
+    "description": "Airlines and Air Carriers (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "4582",
+    "description": "Airports, Flying Fields, and Airport Terminals",
+    "keywords": []
+  },
+  {
+    "code": "4722",
+    "description": "Travel Agencies and Tour Operators",
+    "keywords": []
+  },
+  {
+    "code": "4723",
+    "description": "Package Tour Operators - Germany Only",
+    "keywords": []
+  },
+  {
+    "code": "4784",
+    "description": "Tolls and Bridge Fees",
+    "keywords": []
+  },
+  {
+    "code": "4789",
+    "description": "Transportation Services (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "4812",
+    "description": "Telecommunication Equipment and Telephone Sales",
+    "keywords": []
+  },
+  {
+    "code": "4814",
+    "description": "Telecommunication Services, including Local and Long-Distance",
+    "keywords": [
+      "telecom",
+      "telephone",
+      "mobile service"
+    ]
+  },
+  {
+    "code": "4816",
+    "description": "Computer Network/Information Services",
+    "keywords": []
+  },
+  {
+    "code": "4821",
+    "description": "Telegraph Services",
+    "keywords": []
+  },
+  {
+    "code": "4829",
+    "description": "Money Transfer",
+    "keywords": []
+  },
+  {
+    "code": "4899",
+    "description": "Cable, Satellite and Other Pay Television/Radio/Streaming",
+    "keywords": []
+  },
+  {
+    "code": "4900",
+    "description": "Utilities - Electric, Gas, Water, and Sanitary",
+    "keywords": []
+  },
+  {
+    "code": "5013",
+    "description": "Motor Vehicle Supplies and New Parts",
+    "keywords": []
+  },
+  {
+    "code": "5021",
+    "description": "Office and Commercial Furniture",
+    "keywords": []
+  },
+  {
+    "code": "5039",
+    "description": "Construction Materials (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5044",
+    "description": "Photographic, Photocopy, Microfilm Equipment and Supplies",
+    "keywords": []
+  },
+  {
+    "code": "5045",
+    "description": "Computers and Computer Peripheral Equipment and Software",
+    "keywords": []
+  },
+  {
+    "code": "5046",
+    "description": "Commercial Equipment (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5047",
+    "description": "Medical, Dental, Ophthalmic and Hospital Equipment and",
+    "keywords": []
+  },
+  {
+    "code": "5051",
+    "description": "Metal Service Centers and Offices",
+    "keywords": []
+  },
+  {
+    "code": "5065",
+    "description": "Electrical Parts and Equipment",
+    "keywords": []
+  },
+  {
+    "code": "5072",
+    "description": "Hardware, Equipment and Supplies",
+    "keywords": []
+  },
+  {
+    "code": "5074",
+    "description": "Plumbing and Heating Equipment and Supplies",
+    "keywords": []
+  },
+  {
+    "code": "5085",
+    "description": "Industrial Supplies (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5094",
+    "description": "Precious Stones and Metals, Watches and Jewelry",
+    "keywords": []
+  },
+  {
+    "code": "5099",
+    "description": "Durable Goods (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5111",
+    "description": "Stationery, Office Supplies, Printing and Writing Paper",
+    "keywords": []
+  },
+  {
+    "code": "5122",
+    "description": "Drugs, Drug Proprietaries, and Druggist Sundries",
+    "keywords": []
+  },
+  {
+    "code": "5131",
+    "description": "Piece Goods, Notions, and Other Dry Goods",
+    "keywords": []
+  },
+  {
+    "code": "5137",
+    "description": "Men’s, Women’s, and Children’s Uniforms and Commercial",
+    "keywords": []
+  },
+  {
+    "code": "5139",
+    "description": "Commercial Footwear",
+    "keywords": []
+  },
+  {
+    "code": "5169",
+    "description": "Chemicals and Allied Products (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5172",
+    "description": "Petroleum and Petroleum Products",
+    "keywords": []
+  },
+  {
+    "code": "5192",
+    "description": "Books, Periodicals and Newspapers",
+    "keywords": []
+  },
+  {
+    "code": "5193",
+    "description": "Florists Supplies, Nursery Stock and Flowers",
+    "keywords": []
+  },
+  {
+    "code": "5198",
+    "description": "Paints, Varnishes and Supplies",
+    "keywords": []
+  },
+  {
+    "code": "5199",
+    "description": "Nondurable Goods (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "5200",
+    "description": "Home Supply Warehouse Stores",
+    "keywords": []
+  },
+  {
+    "code": "5211",
+    "description": "Lumber and Building Materials Stores",
+    "keywords": []
+  },
+  {
+    "code": "5231",
+    "description": "Glass, Paint, and Wallpaper Stores",
+    "keywords": []
+  },
+  {
+    "code": "5251",
+    "description": "Hardware Stores",
+    "keywords": []
+  },
+  {
+    "code": "5261",
+    "description": "Nurseries and Lawn and Garden Supply Stores",
+    "keywords": []
+  },
+  {
+    "code": "5262",
+    "description": "Marketplaces",
+    "keywords": []
+  },
+  {
+    "code": "5271",
+    "description": "Mobile Home Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5300",
+    "description": "Wholesale Clubs",
+    "keywords": []
+  },
+  {
+    "code": "5309",
+    "description": "Duty Free Stores",
+    "keywords": []
+  },
+  {
+    "code": "5310",
+    "description": "Discount Stores",
+    "keywords": []
+  },
+  {
+    "code": "5311",
+    "description": "Department Stores",
+    "keywords": []
+  },
+  {
+    "code": "5331",
+    "description": "Variety Stores",
+    "keywords": []
+  },
+  {
+    "code": "5399",
+    "description": "Miscellaneous General Merchandise",
+    "keywords": []
+  },
+  {
+    "code": "5411",
+    "description": "Grocery Stores and Supermarkets",
+    "keywords": [
+      "grocery",
+      "supermarket",
+      "food shop"
+    ]
+  },
+  {
+    "code": "5422",
+    "description": "Freezer and Locker Meat Provisioners",
+    "keywords": []
+  },
+  {
+    "code": "5441",
+    "description": "Candy, Nut, and Confectionery Stores",
+    "keywords": []
+  },
+  {
+    "code": "5451",
+    "description": "Dairy Products Stores",
+    "keywords": []
+  },
+  {
+    "code": "5462",
+    "description": "Bakeries",
+    "keywords": []
+  },
+  {
+    "code": "5499",
+    "description": "Miscellaneous Food Stores - Convenience Stores and Specialty",
+    "keywords": []
+  },
+  {
+    "code": "5511",
+    "description": "Car and Truck Dealers (New and Used) Sales, Service, Repairs,",
+    "keywords": []
+  },
+  {
+    "code": "5521",
+    "description": "Car and Truck Dealers (Used Only) Sales, Service, Repairs,",
+    "keywords": []
+  },
+  {
+    "code": "5532",
+    "description": "Automotive Tire Stores",
+    "keywords": []
+  },
+  {
+    "code": "5533",
+    "description": "Automotive Parts and Accessories Stores",
+    "keywords": []
+  },
+  {
+    "code": "5541",
+    "description": "Service Stations (With or without Ancillary Services)",
+    "keywords": [
+      "gas station",
+      "fuel"
+    ]
+  },
+  {
+    "code": "5542",
+    "description": "Automated Fuel Dispensers",
+    "keywords": []
+  },
+  {
+    "code": "5551",
+    "description": "Boat Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5552",
+    "description": "Electric Vehicle Charging",
+    "keywords": []
+  },
+  {
+    "code": "5561",
+    "description": "Camper, Recreational and Utility Trailer Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5571",
+    "description": "Motorcycle Shops and Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5592",
+    "description": "Motor Homes Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5598",
+    "description": "Snowmobile Dealers",
+    "keywords": []
+  },
+  {
+    "code": "5599",
+    "description": "Miscellaneous Automotive, Aircraft, and Farm Equipment",
+    "keywords": []
+  },
+  {
+    "code": "5611",
+    "description": "Men’s and Boys’ Clothing and Accessories Stores",
+    "keywords": []
+  },
+  {
+    "code": "5621",
+    "description": "Women’s Ready-To-Wear Stores",
+    "keywords": []
+  },
+  {
+    "code": "5631",
+    "description": "Women’s Accessory and Specialty Shops",
+    "keywords": []
+  },
+  {
+    "code": "5641",
+    "description": "Children’s and Infants’ Wear Stores",
+    "keywords": []
+  },
+  {
+    "code": "5651",
+    "description": "Family Clothing Stores",
+    "keywords": [
+      "clothing",
+      "apparel",
+      "fashion"
+    ]
+  },
+  {
+    "code": "5655",
+    "description": "Sports and Riding Apparel Stores",
+    "keywords": []
+  },
+  {
+    "code": "5661",
+    "description": "Shoe Stores",
+    "keywords": []
+  },
+  {
+    "code": "5681",
+    "description": "Furriers and Fur Shops",
+    "keywords": []
+  },
+  {
+    "code": "5691",
+    "description": "Men’s and Women’s Clothing Stores",
+    "keywords": []
+  },
+  {
+    "code": "5697",
+    "description": "Tailors, Seamstresses, Mending, and Alterations",
+    "keywords": []
+  },
+  {
+    "code": "5698",
+    "description": "Wig and Toupee Stores",
+    "keywords": []
+  },
+  {
+    "code": "5699",
+    "description": "Miscellaneous Apparel and Accessory Shops",
+    "keywords": []
+  },
+  {
+    "code": "5712",
+    "description": "Furniture, Home Furnishings, and Equipment Stores, Except",
+    "keywords": []
+  },
+  {
+    "code": "5713",
+    "description": "Floor Covering Stores",
+    "keywords": []
+  },
+  {
+    "code": "5714",
+    "description": "Drapery, Window Covering, and Upholstery Stores",
+    "keywords": []
+  },
+  {
+    "code": "5718",
+    "description": "Fireplace, Fireplace Screens and Accessories Stores",
+    "keywords": []
+  },
+  {
+    "code": "5719",
+    "description": "Miscellaneous Home Furnishing Specialty Stores",
+    "keywords": []
+  },
+  {
+    "code": "5722",
+    "description": "Household Appliance Stores",
+    "keywords": []
+  },
+  {
+    "code": "5723",
+    "description": "Guns and Ammunition Shops",
+    "keywords": []
+  },
+  {
+    "code": "5732",
+    "description": "Electronics Stores",
+    "keywords": [
+      "electronics",
+      "computer",
+      "phone store"
+    ]
+  },
+  {
+    "code": "5733",
+    "description": "Music Stores - Musical Instruments, Pianos, and Sheet Music",
+    "keywords": []
+  },
+  {
+    "code": "5734",
+    "description": "Computer Software Stores",
+    "keywords": []
+  },
+  {
+    "code": "5735",
+    "description": "Record Stores",
+    "keywords": []
+  },
+  {
+    "code": "5811",
+    "description": "Caterers",
+    "keywords": []
+  },
+  {
+    "code": "5812",
+    "description": "Eating Places and Restaurants",
+    "keywords": [
+      "restaurant",
+      "dining",
+      "cafe"
+    ]
+  },
+  {
+    "code": "5813",
+    "description": "Drinking Places (Alcoholic Beverages) - Bars, Taverns, Nightclubs,",
+    "keywords": []
+  },
+  {
+    "code": "5814",
+    "description": "Fast Food Restaurants",
+    "keywords": [
+      "fast food",
+      "takeaway",
+      "quick service",
+      "coffee shop",
+      "sandwich shop"
+    ]
+  },
+  {
+    "code": "5815",
+    "description": "Digital Goods Media - Books, Movies, Digital artwork/images,",
+    "keywords": []
+  },
+  {
+    "code": "5816",
+    "description": "Digital Goods - Games",
+    "keywords": []
+  },
+  {
+    "code": "5817",
+    "description": "Digital Goods - Applications (Excludes Games)",
+    "keywords": []
+  },
+  {
+    "code": "5818",
+    "description": "Digital Goods - Large Digital Goods Merchant",
+    "keywords": []
+  },
+  {
+    "code": "5912",
+    "description": "Drug Stores and Pharmacies",
+    "keywords": [
+      "pharmacy",
+      "drug store"
+    ]
+  },
+  {
+    "code": "5921",
+    "description": "Package Stores - Beer, Wine, and Liquor",
+    "keywords": []
+  },
+  {
+    "code": "5931",
+    "description": "Used Merchandise and Secondhand Stores",
+    "keywords": []
+  },
+  {
+    "code": "5932",
+    "description": "Antique Shops - Sales, Repairs, and Restoration Services",
+    "keywords": []
+  },
+  {
+    "code": "5933",
+    "description": "Pawn Shops",
+    "keywords": []
+  },
+  {
+    "code": "5935",
+    "description": "Wrecking and Salvage Yards",
+    "keywords": []
+  },
+  {
+    "code": "5937",
+    "description": "Antique Reproductions",
+    "keywords": []
+  },
+  {
+    "code": "5940",
+    "description": "Bicycle Shops - Sales and Service",
+    "keywords": []
+  },
+  {
+    "code": "5941",
+    "description": "Sporting Goods Stores",
+    "keywords": []
+  },
+  {
+    "code": "5942",
+    "description": "Book Stores",
+    "keywords": []
+  },
+  {
+    "code": "5943",
+    "description": "Stationery Stores, Office and School Supply Stores",
+    "keywords": []
+  },
+  {
+    "code": "5944",
+    "description": "Jewelry Stores, Watches, Clocks, and Silverware Stores",
+    "keywords": [
+      "jewelry",
+      "jewellery",
+      "watches"
+    ]
+  },
+  {
+    "code": "5945",
+    "description": "Hobby, Toy, and Game Shops",
+    "keywords": []
+  },
+  {
+    "code": "5946",
+    "description": "Camera and Photographic Supply Stores",
+    "keywords": []
+  },
+  {
+    "code": "5947",
+    "description": "Gift, Card, Novelty and Souvenir Shops",
+    "keywords": []
+  },
+  {
+    "code": "5948",
+    "description": "Luggage and Leather Goods Stores",
+    "keywords": []
+  },
+  {
+    "code": "5949",
+    "description": "Sewing, Needlework, Fabric and Piece Goods Stores",
+    "keywords": []
+  },
+  {
+    "code": "5950",
+    "description": "Glassware/Crystal Stores",
+    "keywords": []
+  },
+  {
+    "code": "5960",
+    "description": "Direct Marketing - Insurance Services",
+    "keywords": []
+  },
+  {
+    "code": "5962",
+    "description": "Direct Marketing - Travel-Related Arrangement Services",
+    "keywords": []
+  },
+  {
+    "code": "5963",
+    "description": "Door-To-Door Sales",
+    "keywords": []
+  },
+  {
+    "code": "5964",
+    "description": "Direct Marketing - Catalog Merchant",
+    "keywords": []
+  },
+  {
+    "code": "5965",
+    "description": "Direct Marketing - Combination Catalog and Retail Merchant",
+    "keywords": []
+  },
+  {
+    "code": "5966",
+    "description": "Direct Marketing - Outbound Telemarketing Merchant",
+    "keywords": []
+  },
+  {
+    "code": "5967",
+    "description": "Adult Content and Services",
+    "keywords": []
+  },
+  {
+    "code": "5968",
+    "description": "Direct Marketing - Continuity/Subscription Merchant",
+    "keywords": []
+  },
+  {
+    "code": "5969",
+    "description": "Direct Marketing - Other Direct Marketers (Not Elsewhere",
+    "keywords": []
+  },
+  {
+    "code": "5970",
+    "description": "Artists’ Supply and Craft Shops",
+    "keywords": []
+  },
+  {
+    "code": "5971",
+    "description": "Art Dealers and Galleries",
+    "keywords": []
+  },
+  {
+    "code": "5972",
+    "description": "Stamp and Coin Stores",
+    "keywords": []
+  },
+  {
+    "code": "5973",
+    "description": "Religious Goods Stores",
+    "keywords": []
+  },
+  {
+    "code": "5975",
+    "description": "Hearing Aids - Sales, Service, and Supply",
+    "keywords": []
+  },
+  {
+    "code": "5976",
+    "description": "Orthopedic Goods - Prosthetic Devices",
+    "keywords": []
+  },
+  {
+    "code": "5977",
+    "description": "Cosmetic Stores",
+    "keywords": []
+  },
+  {
+    "code": "5978",
+    "description": "Typewriter Stores - Sales, Rentals, and Service",
+    "keywords": []
+  },
+  {
+    "code": "5983",
+    "description": "Fuel Dealers - Fuel Oil, Wood, Coal, and Liquefied Petroleum",
+    "keywords": []
+  },
+  {
+    "code": "5992",
+    "description": "Florists",
+    "keywords": []
+  },
+  {
+    "code": "5993",
+    "description": "Cigar Stores and Stands",
+    "keywords": []
+  },
+  {
+    "code": "5994",
+    "description": "News Dealers and Newsstands",
+    "keywords": []
+  },
+  {
+    "code": "5995",
+    "description": "Pet Shops, Pet Foods and Supplies Stores",
+    "keywords": []
+  },
+  {
+    "code": "5996",
+    "description": "Swimming Pools - Sales and Service",
+    "keywords": []
+  },
+  {
+    "code": "5997",
+    "description": "Electric Razor Stores - Sales and Service",
+    "keywords": []
+  },
+  {
+    "code": "5998",
+    "description": "Tent and Awning Shops",
+    "keywords": []
+  },
+  {
+    "code": "5999",
+    "description": "Miscellaneous and Specialty Retail Shops",
+    "keywords": [
+      "specialty retail",
+      "miscellaneous retail"
+    ]
+  },
+  {
+    "code": "6010",
+    "description": "Financial Institutions - Manual Cash Disbursements",
+    "keywords": []
+  },
+  {
+    "code": "6011",
+    "description": "Financial Institutions - Automated Cash Disbursements",
+    "keywords": []
+  },
+  {
+    "code": "6012",
+    "description": "Financial Institutions - Merchandise, Services, and Debt",
+    "keywords": [
+      "financial institution",
+      "debt repayment"
+    ]
+  },
+  {
+    "code": "6051",
+    "description": "Non-Financial Institutions - Foreign Currency, Liquid and",
+    "keywords": [
+      "currency exchange",
+      "money order"
+    ]
+  },
+  {
+    "code": "6211",
+    "description": "Security Brokers/Dealers",
+    "keywords": [
+      "broker",
+      "securities",
+      "investment dealer"
+    ]
+  },
+  {
+    "code": "6300",
+    "description": "Insurance Sales, Underwriting, and Premiums",
+    "keywords": []
+  },
+  {
+    "code": "6513",
+    "description": "Real Estate Agents and Managers",
+    "keywords": []
+  },
+  {
+    "code": "6540",
+    "description": "Non-Financial Institutions - Stored Value Card Purchase/Load",
+    "keywords": []
+  },
+  {
+    "code": "7011",
+    "description": "Lodging - Hotels, Motels, Resorts, Central Reservation Services",
+    "keywords": [
+      "hotel",
+      "motel",
+      "lodging"
+    ]
+  },
+  {
+    "code": "7012",
+    "description": "Timeshares",
+    "keywords": []
+  },
+  {
+    "code": "7032",
+    "description": "Sporting and Recreational Camps",
+    "keywords": []
+  },
+  {
+    "code": "7033",
+    "description": "Trailer Parks and Campgrounds",
+    "keywords": []
+  },
+  {
+    "code": "7210",
+    "description": "Laundry, Cleaning, and Garment Services",
+    "keywords": []
+  },
+  {
+    "code": "7211",
+    "description": "Laundries - Family and Commercial",
+    "keywords": []
+  },
+  {
+    "code": "7216",
+    "description": "Dry Cleaners",
+    "keywords": []
+  },
+  {
+    "code": "7217",
+    "description": "Carpet and Upholstery Cleaning",
+    "keywords": []
+  },
+  {
+    "code": "7221",
+    "description": "Photographic Studios",
+    "keywords": []
+  },
+  {
+    "code": "7230",
+    "description": "Beauty and Barber Shops",
+    "keywords": []
+  },
+  {
+    "code": "7251",
+    "description": "Shoe Repair Shops, Shoeshine Parlors, and Hat Cleaning",
+    "keywords": []
+  },
+  {
+    "code": "7261",
+    "description": "Funeral Services and Crematories",
+    "keywords": []
+  },
+  {
+    "code": "7273",
+    "description": "Dating Services",
+    "keywords": []
+  },
+  {
+    "code": "7276",
+    "description": "Tax Preparation Services",
+    "keywords": []
+  },
+  {
+    "code": "7277",
+    "description": "Counseling Services - Debt, Marriage, and Personal",
+    "keywords": []
+  },
+  {
+    "code": "7278",
+    "description": "Buying and Shopping Services and Clubs",
+    "keywords": []
+  },
+  {
+    "code": "7296",
+    "description": "Clothing Rental - Costumes, Uniforms, Formal Wear",
+    "keywords": []
+  },
+  {
+    "code": "7297",
+    "description": "Massage Parlors",
+    "keywords": []
+  },
+  {
+    "code": "7298",
+    "description": "Health and Beauty Spas",
+    "keywords": []
+  },
+  {
+    "code": "7299",
+    "description": "Miscellaneous Personal Services (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "7311",
+    "description": "Advertising Services",
+    "keywords": []
+  },
+  {
+    "code": "7321",
+    "description": "Consumer Credit Reporting Agencies",
+    "keywords": []
+  },
+  {
+    "code": "7322",
+    "description": "Collection Agencies",
+    "keywords": []
+  },
+  {
+    "code": "7333",
+    "description": "Commercial Photography, Art, and Graphics",
+    "keywords": []
+  },
+  {
+    "code": "7338",
+    "description": "Quick Copy, Reproduction, and Blueprinting Services",
+    "keywords": []
+  },
+  {
+    "code": "7339",
+    "description": "Stenographic and Secretarial Support",
+    "keywords": []
+  },
+  {
+    "code": "7342",
+    "description": "Exterminating and Disinfecting Services",
+    "keywords": []
+  },
+  {
+    "code": "7349",
+    "description": "Cleaning, Maintenance, and Janitorial Services",
+    "keywords": []
+  },
+  {
+    "code": "7361",
+    "description": "Employment Agencies and Temporary Help Services",
+    "keywords": []
+  },
+  {
+    "code": "7372",
+    "description": "Computer Programming, Data Processing, and Integrated",
+    "keywords": []
+  },
+  {
+    "code": "7375",
+    "description": "Information Retrieval Services",
+    "keywords": []
+  },
+  {
+    "code": "7379",
+    "description": "Computer Maintenance, Repair and Services (Not Elsewhere",
+    "keywords": []
+  },
+  {
+    "code": "7392",
+    "description": "Management, Consulting, and Public Relations Services",
+    "keywords": []
+  },
+  {
+    "code": "7393",
+    "description": "Detective Agencies, Protective Services, and Security Services,",
+    "keywords": []
+  },
+  {
+    "code": "7394",
+    "description": "Equipment, Tool, Furniture, and Appliance Rental and Leasing",
+    "keywords": []
+  },
+  {
+    "code": "7395",
+    "description": "Photofinishing Laboratories and Photo Developing",
+    "keywords": []
+  },
+  {
+    "code": "7399",
+    "description": "Business Services (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "7512",
+    "description": "Automobile Rental Agency",
+    "keywords": []
+  },
+  {
+    "code": "7513",
+    "description": "Truck and Utility Trailer Rentals",
+    "keywords": []
+  },
+  {
+    "code": "7519",
+    "description": "Motor Home and Recreational Vehicle Rentals",
+    "keywords": []
+  },
+  {
+    "code": "7523",
+    "description": "Parking Lots, Parking Meters and Garages",
+    "keywords": []
+  },
+  {
+    "code": "7531",
+    "description": "Automotive Body Repair Shops",
+    "keywords": []
+  },
+  {
+    "code": "7534",
+    "description": "Tire Retreading and Repair Shops",
+    "keywords": []
+  },
+  {
+    "code": "7535",
+    "description": "Automotive Paint Shops",
+    "keywords": []
+  },
+  {
+    "code": "7538",
+    "description": "Automotive Service Shops (Non-Dealer)",
+    "keywords": []
+  },
+  {
+    "code": "7542",
+    "description": "Car Washes",
+    "keywords": []
+  },
+  {
+    "code": "7549",
+    "description": "Towing Services",
+    "keywords": []
+  },
+  {
+    "code": "7622",
+    "description": "Electronics Repair Shops",
+    "keywords": []
+  },
+  {
+    "code": "7623",
+    "description": "Air Conditioning and Refrigeration Repair Shops",
+    "keywords": []
+  },
+  {
+    "code": "7629",
+    "description": "Electrical and Small Appliance Repair Shops",
+    "keywords": []
+  },
+  {
+    "code": "7631",
+    "description": "Watch, Clock and Jewelry Repair",
+    "keywords": []
+  },
+  {
+    "code": "7641",
+    "description": "Furniture - Reupholstery, Repair, and Refinishing",
+    "keywords": []
+  },
+  {
+    "code": "7692",
+    "description": "Welding Services",
+    "keywords": []
+  },
+  {
+    "code": "7699",
+    "description": "Miscellaneous Repair Shops and Related Services",
+    "keywords": []
+  },
+  {
+    "code": "7800",
+    "description": "Government-Owned Lotteries (US Region only)",
+    "keywords": []
+  },
+  {
+    "code": "7801",
+    "description": "Government Licensed On-Line Casinos (On-Line Gambling)",
+    "keywords": []
+  },
+  {
+    "code": "7802",
+    "description": "Government-Licensed Horse/Dog Racing (US Region only)",
+    "keywords": []
+  },
+  {
+    "code": "7829",
+    "description": "Motion Picture and Video Tape Production and Distribution",
+    "keywords": []
+  },
+  {
+    "code": "7832",
+    "description": "Motion Picture Theaters",
+    "keywords": []
+  },
+  {
+    "code": "7841",
+    "description": "DVD/Video Tape Rental Stores",
+    "keywords": []
+  },
+  {
+    "code": "7911",
+    "description": "Dance Halls, Studios and Schools",
+    "keywords": []
+  },
+  {
+    "code": "7922",
+    "description": "Ticket Agencies and Theatrical Producers (Except Motion",
+    "keywords": []
+  },
+  {
+    "code": "7929",
+    "description": "Bands, Orchestras, and Miscellaneous Entertainers (Not",
+    "keywords": []
+  },
+  {
+    "code": "7932",
+    "description": "Billiard and Pool Establishments",
+    "keywords": []
+  },
+  {
+    "code": "7933",
+    "description": "Bowling Alleys",
+    "keywords": []
+  },
+  {
+    "code": "7941",
+    "description": "Commercial Sports, Professional Sports Clubs, Athletic Fields,",
+    "keywords": []
+  },
+  {
+    "code": "7991",
+    "description": "Tourist Attractions and Exhibits",
+    "keywords": []
+  },
+  {
+    "code": "7992",
+    "description": "Public Golf Courses",
+    "keywords": []
+  },
+  {
+    "code": "7993",
+    "description": "Video Amusement Game Supplies",
+    "keywords": []
+  },
+  {
+    "code": "7994",
+    "description": "Video Game Arcades/Establishments",
+    "keywords": []
+  },
+  {
+    "code": "7995",
+    "description": "Betting, including Lottery Tickets, Casino Gaming Chips,",
+    "keywords": [
+      "gambling",
+      "casino",
+      "betting"
+    ]
+  },
+  {
+    "code": "7996",
+    "description": "Amusement Parks, Circuses, Carnivals, and Fortune Tellers",
+    "keywords": []
+  },
+  {
+    "code": "7997",
+    "description": "Membership Clubs (Sports, Recreation, Athletic), Country",
+    "keywords": []
+  },
+  {
+    "code": "7998",
+    "description": "Aquariums, Seaquariums, Dolphinariums, and Zoos",
+    "keywords": []
+  },
+  {
+    "code": "7999",
+    "description": "Recreation Services (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "8011",
+    "description": "Doctors and Physicians (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "8021",
+    "description": "Dentists and Orthodontists",
+    "keywords": []
+  },
+  {
+    "code": "8031",
+    "description": "Osteopaths",
+    "keywords": []
+  },
+  {
+    "code": "8041",
+    "description": "Chiropractors",
+    "keywords": []
+  },
+  {
+    "code": "8042",
+    "description": "Optometrists and Ophthalmologists",
+    "keywords": []
+  },
+  {
+    "code": "8043",
+    "description": "Opticians, Optical Goods, and Eyeglasses",
+    "keywords": []
+  },
+  {
+    "code": "8049",
+    "description": "Podiatrists and Chiropodists",
+    "keywords": []
+  },
+  {
+    "code": "8050",
+    "description": "Nursing, Home Healthcare and Personal Care Facilities",
+    "keywords": []
+  },
+  {
+    "code": "8062",
+    "description": "Hospitals",
+    "keywords": []
+  },
+  {
+    "code": "8071",
+    "description": "Medical and Dental Laboratories",
+    "keywords": []
+  },
+  {
+    "code": "8099",
+    "description": "Medical Services and Health Practitioners (Not Elsewhere",
+    "keywords": []
+  },
+  {
+    "code": "8111",
+    "description": "Legal Services and Attorneys",
+    "keywords": []
+  },
+  {
+    "code": "8211",
+    "description": "Elementary and Secondary Schools",
+    "keywords": []
+  },
+  {
+    "code": "8220",
+    "description": "Colleges, Universities, Professional Schools, and Junior",
+    "keywords": []
+  },
+  {
+    "code": "8241",
+    "description": "Correspondence Schools",
+    "keywords": []
+  },
+  {
+    "code": "8244",
+    "description": "Business and Secretarial Schools",
+    "keywords": []
+  },
+  {
+    "code": "8249",
+    "description": "Vocational and Trade Schools",
+    "keywords": []
+  },
+  {
+    "code": "8299",
+    "description": "Schools and Educational Services (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "8351",
+    "description": "Child Care Services",
+    "keywords": []
+  },
+  {
+    "code": "8398",
+    "description": "Charitable Social Service Organizations",
+    "keywords": []
+  },
+  {
+    "code": "8641",
+    "description": "Civic, Social, and Fraternal Associations",
+    "keywords": []
+  },
+  {
+    "code": "8651",
+    "description": "Political Organizations",
+    "keywords": []
+  },
+  {
+    "code": "8661",
+    "description": "Religious Organizations",
+    "keywords": []
+  },
+  {
+    "code": "8675",
+    "description": "Automobile Associations",
+    "keywords": []
+  },
+  {
+    "code": "8699",
+    "description": "Membership Organizations (Not Elsewhere Classified)",
+    "keywords": []
+  },
+  {
+    "code": "8734",
+    "description": "Testing Laboratories (Non-Medical Testing)",
+    "keywords": []
+  },
+  {
+    "code": "8911",
+    "description": "Architectural, Engineering, and Surveying Services",
+    "keywords": []
+  },
+  {
+    "code": "8931",
+    "description": "Accounting, Auditing, and Bookkeeping Services",
+    "keywords": []
+  },
+  {
+    "code": "8999",
+    "description": "Professional Services (Not Elsewhere Classified)",
+    "keywords": []
+  }
+]

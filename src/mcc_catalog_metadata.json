@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "visa-mdsm-2026-04",
+  "source": "Visa Merchant Data Standards Manual",
+  "sourceEdition": "April 2026",
+  "sourceUrl": "https://usa.visa.com/dam/VCOM/download/merchants/visa-merchant-data-standards-manual.pdf",
+  "isComplete": true,
+  "rowCount": 924,
+  "notes": "Complete four-digit MCC/title listing extracted from Section 2 of the cited Visa edition. This is Visa source data, not an acquirer eligibility or underwriting policy; verify source updates before operational use. Keyword activity suggestions remain curated and are not exhaustive."
+}
