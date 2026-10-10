@@ -26,7 +26,7 @@ Representative prompts included:
 
 The implementation has been developed through iterative AI-assisted work. Codex generated or substantially revised code and documentation in response to candidate goals and feedback. The candidate supplied the assignment and project direction, chose priorities, reviewed the outputs, attempted the AWS setup, reported observed UI and AWS errors, and decided which project limitations to accept for the assessment.
 
-The current project directory has no Git repository or prior commit history. As a result, it is not possible to reliably attribute every pre-existing file or line to a particular person or AI session. This report does not claim that the candidate manually authored code that may have been AI-generated. Review the repository’s future commit history and update this section if the original source repository or additional AI-use records are recovered.
+The project folder arrived for submission preparation without Git metadata or prior commits. A new local repository was therefore initialized with one root commit containing the complete project snapshot as it stood on 2026-10-10. That commit is an honest starting snapshot; it does not reconstruct or claim to represent the project’s earlier development timeline. Subsequent changes will be visible in later commits. It is not possible to reliably attribute every pre-existing file or line to a particular person or AI session, so this report does not claim that the candidate manually authored code that may have been AI-generated. Update this section if an earlier source repository or additional AI-use records are recovered.
 
 ## Examples of review, correction, and AI weaknesses
 

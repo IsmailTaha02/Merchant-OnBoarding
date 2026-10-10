@@ -103,6 +103,8 @@ See [docs/architecture.md](docs/architecture.md) for the Mermaid request-flow di
 
 For assessment transparency, see [AI-USAGE.md](AI-USAGE.md) for the AI tools used, representative assistance, review and verification steps, and known limitations. Confirm its accuracy and add any other tools/models used before submission.
 
+The repository history begins with an initial project snapshot commit created on 2026-10-10 because no earlier Git history was available in the supplied project folder. Do not present that snapshot as the full development history; future changes should be committed separately and meaningfully.
+
 The scheduled cleanup worker removes all versions and delete markers under an expired application's S3 prefix before deleting its DynamoDB partition. It handles one application per invocation and retries partial work on a later schedule. It does not support legal holds or write a separate deletion audit record; add those controls before operational use.
 
 To remove a disposable assessment stack after testing, run `sam delete --stack-name <stack-name>` from this project directory and follow the prompts. This removes the stack resources; review and empty any retained S3 object versions first if CloudFormation reports that the bucket is not empty. CloudWatch log groups use a configurable retention period (`LogRetentionDays`, default 30 days).
